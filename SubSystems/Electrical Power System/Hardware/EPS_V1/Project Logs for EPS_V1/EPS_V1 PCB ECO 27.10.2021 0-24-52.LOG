@@ -1,0 +1,23 @@
+Added Component: Designator=R1(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=VT1(SOT23-3)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Component: Designator=VT2(SOT23-3)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Net: Name=BAT_1S
+Added Pin To Net: NetName=BAT_2S Pin=R1-2
+Added Net: Name=BAT_2S
+Added Pin To Net: NetName=GND Pin=VT2-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetBAT3_K Pin=VT1-2
+Added Net: Name=NetBAT3_K
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=VT1-1
+Added Pin To Net: NetName=NetR1_1 Pin=VT2-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetVT1_D6 Pin=VT1-3
+Added Pin To Net: NetName=NetVT1_D6 Pin=VT2-3
+Added Net: Name=NetVT1_D6
+Added Class: Name=Battery
+Added Room: Name=Battery

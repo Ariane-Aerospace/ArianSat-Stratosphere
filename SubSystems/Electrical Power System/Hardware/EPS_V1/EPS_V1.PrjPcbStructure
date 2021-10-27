@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=EPS_V1.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=EPS_V1.SchDoc|Designator=U_Battery|SchDesignator=U_Battery|FileName=Battery.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Battery.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Battery.SchDoc|Designator=U_BQ29209|SchDesignator=U_BQ29209|FileName=BQ29209.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=BQ29209.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=EPS_V1.SchDoc|FileName=BMS.SchDoc|SheetNumber=4

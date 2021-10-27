@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=BAT_2S Pin=BAT1_U_BMS1-A
+Removed Pin From Net: NetName=BAT_2S Pin=BAT1_U_BMS1-A
+Removed Pin From Net: NetName=BAT_2S Pin=BAT1_U_BMS1-A
+Added Pin To Net: NetName=NetVT1_S1 Pin=VT1-2
+Added Net: Name=NetVT1_S1
