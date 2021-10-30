@@ -1,0 +1,5 @@
+Replace Part BAT1 !Battery in C:\!MEGA\!myFiles\Altium\WIP\CanSat_2122\SubSystems\Electrical Power System\Hardware\EPS_V1\BMS.SchDoc with !Battery from power.IntLib
+Replace Part C? !Capacitor in C:\!MEGA\!myFiles\Altium\WIP\CanSat_2122\SubSystems\Electrical Power System\Hardware\EPS_V1\BMS.SchDoc with !Capacitor from !main.IntLib
+Replace Part R? !Resistor in C:\!MEGA\!myFiles\Altium\WIP\CanSat_2122\SubSystems\Electrical Power System\Hardware\EPS_V1\BMS.SchDoc with !Resistor from !main.IntLib
+Replace Part R? !Resistor in C:\!MEGA\!myFiles\Altium\WIP\CanSat_2122\SubSystems\Electrical Power System\Hardware\EPS_V1\BMS.SchDoc with !Resistor from !main.IntLib
+Replace Part U? AP9211 in C:\!MEGA\!myFiles\Altium\WIP\CanSat_2122\SubSystems\Electrical Power System\Hardware\EPS_V1\BMS.SchDoc with AP9211 from power.IntLib
