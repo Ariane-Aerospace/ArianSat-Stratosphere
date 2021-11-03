@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=C32-1
+Change Component Designator: OldDesignator=C? NewDesignator=C32
+Change Component Designator: OldDesignator=C? NewDesignator=C36
+Added Component: Designator=C37(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C37-2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC32_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC32_2
+Added Pin To Net: NetName=NetC37_1 Pin=C37-1
+Added Pin To Net: NetName=NetC37_1 Pin=R39-2
+Added Net: Name=NetC37_1

@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=NetC20_1 Pin=U13-4
+Removed Pin From Net: NetName=NetC21_2 Pin=U13-5
+Change Component Footprint: Designator=C50 Old Footprint=TECAP B New Footprint=TECAP A
+Change Component Footprint: Designator=C20 Old Footprint=TECAP C New Footprint=TECAP B
+Change Component Comment : Designator=C20 Old Comment=TECAP A * * X7R New Comment=TECAP B 100uF * X7R
+Change component parameters: Designator = "C20" ("C31"); Footprint = "TECAP C"; UniqueID = "\BNUMWNXD\DIMYVCRV" ("\BNUMWNXD\DIMYVCRV")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?1(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?2(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?3(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?4(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?5(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?1(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R?2(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5 Ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?1-1
+Added Pin To Net: NetName=NetC20_1 Pin=C?1-2
+Added Pin To Net: NetName=GND Pin=C?2-1
+Added Pin To Net: NetName=NetC20_1 Pin=C?2-2
+Added Pin To Net: NetName=GND Pin=C?3-1
+Added Pin To Net: NetName=NetC20_1 Pin=C?3-2
+Added Pin To Net: NetName=GND Pin=C?4-1
+Added Pin To Net: NetName=NetC20_1 Pin=C?4-2
+Added Pin To Net: NetName=NetC21_2 Pin=R?1-1
+Added Pin To Net: NetName=NetC20_1 Pin=R?2-1
+Added Pin To Net: NetName=NetC?5_1 Pin=C?5-1
+Added Pin To Net: NetName=NetC?5_1 Pin=R?2-2
+Added Pin To Net: NetName=NetC?5_1 Pin=U13-4
+Added Net: Name=NetC?5_1
+Added Pin To Net: NetName=NetC?5_2 Pin=C?5-2
+Added Pin To Net: NetName=NetC?5_2 Pin=R?1-2
+Added Pin To Net: NetName=NetC?5_2 Pin=U13-5
+Added Net: Name=NetC?5_2

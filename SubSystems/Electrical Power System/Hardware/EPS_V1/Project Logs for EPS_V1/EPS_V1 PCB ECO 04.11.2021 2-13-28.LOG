@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=NetC22_2 Pin=C63-2
+Removed Pin From Net: NetName=NetC22_2 Pin=C64-2
+Removed Pin From Net: NetName=NetC22_2 Pin=C66-2
+Removed Pin From Net: NetName=NetC22_2 Pin=R24-2
+Removed Pin From Net: NetName=NetC22_2 Pin=R25-2
+Removed Pin From Net: NetName=NetC22_2 Pin=R64-1
+Removed Pin From Net: NetName=NetU8_3 Pin=U14-6
+Change Component Comment : Designator=R26 Old Comment=RES 0402 19.1k New Comment=RES 0402 X
+Change Component Comment : Designator=R25 Old Comment=RES 0402 100k New Comment=RES 0402 X
+Change component parameters: Designator = "R25" ("R32"); Footprint = "RES 0402"; UniqueID = "\BNUMWNXD\OHVBOQNT" ("\BNUMWNXD\OHVBOQNT")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "X"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26" ("R33"); Footprint = "RES 0402"; UniqueID = "\BNUMWNXD\KBJHFYDG" ("\BNUMWNXD\KBJHFYDG")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "X"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC63_2 Pin=C63-2
+Added Pin To Net: NetName=NetC63_2 Pin=C64-2
+Added Pin To Net: NetName=NetC63_2 Pin=C66-2
+Added Pin To Net: NetName=NetC63_2 Pin=R24-2
+Added Pin To Net: NetName=NetC63_2 Pin=R25-2
+Added Pin To Net: NetName=NetC63_2 Pin=R64-1
+Added Net: Name=NetC63_2
+Added Pin To Net: NetName=NetU8_1 Pin=U8-1
+Added Pin To Net: NetName=NetU8_1 Pin=U9-8
+Added Net: Name=NetU8_1
+Added Pin To Net: NetName=NetU14_6 Pin=U14-6
+Added Net: Name=NetU14_6

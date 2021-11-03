@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=L3 Old Footprint=IND-4.6x4.6 New Footprint=IND-5x5
+Change Component Comment: Designator=L3 Old Comment==Footprint + ' ' + Value New Comment=IND-5x5 15 uH
