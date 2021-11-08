@@ -1,0 +1,203 @@
+Added Component: Designator=C1(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C2(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C3(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C4(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C5(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C6(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C7(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C8(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C9(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C10(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C11(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C12(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C13(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C14(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C15(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C16(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C17(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C18(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C19(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "16pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C20(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "16pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=G1(3225)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12 MHz"; VariantName = "[No Variations]"
+Added Component: Designator=G2(1210)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "32.768k"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=U1(LQFP-144)
+Added Pin To Net: NetName=CPU_VDD Pin=C1-1
+Added Pin To Net: NetName=CPU_VDD Pin=C2-1
+Added Pin To Net: NetName=CPU_VDD Pin=C3-1
+Added Pin To Net: NetName=CPU_VDD Pin=C4-1
+Added Pin To Net: NetName=CPU_VDD Pin=C5-1
+Added Pin To Net: NetName=CPU_VDD Pin=C6-1
+Added Pin To Net: NetName=CPU_VDD Pin=C7-1
+Added Pin To Net: NetName=CPU_VDD Pin=C8-1
+Added Pin To Net: NetName=CPU_VDD Pin=C9-1
+Added Pin To Net: NetName=CPU_VDD Pin=C10-1
+Added Pin To Net: NetName=CPU_VDD Pin=C11-1
+Added Pin To Net: NetName=CPU_VDD Pin=C12-1
+Added Pin To Net: NetName=CPU_VDD Pin=C13-1
+Added Pin To Net: NetName=CPU_VDD Pin=C14-1
+Added Pin To Net: NetName=CPU_VDD Pin=R1-1
+Added Pin To Net: NetName=CPU_VDD Pin=U1-17
+Added Pin To Net: NetName=CPU_VDD Pin=U1-30
+Added Pin To Net: NetName=CPU_VDD Pin=U1-39
+Added Pin To Net: NetName=CPU_VDD Pin=U1-52
+Added Pin To Net: NetName=CPU_VDD Pin=U1-62
+Added Pin To Net: NetName=CPU_VDD Pin=U1-72
+Added Pin To Net: NetName=CPU_VDD Pin=U1-84
+Added Pin To Net: NetName=CPU_VDD Pin=U1-95
+Added Pin To Net: NetName=CPU_VDD Pin=U1-108
+Added Pin To Net: NetName=CPU_VDD Pin=U1-121
+Added Pin To Net: NetName=CPU_VDD Pin=U1-131
+Added Pin To Net: NetName=CPU_VDD Pin=U1-144
+Added Net: Name=CPU_VDD
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=U1-16
+Added Pin To Net: NetName=GND Pin=U1-31
+Added Pin To Net: NetName=GND Pin=U1-38
+Added Pin To Net: NetName=GND Pin=U1-51
+Added Pin To Net: NetName=GND Pin=U1-61
+Added Pin To Net: NetName=GND Pin=U1-83
+Added Pin To Net: NetName=GND Pin=U1-94
+Added Pin To Net: NetName=GND Pin=U1-107
+Added Pin To Net: NetName=GND Pin=U1-120
+Added Pin To Net: NetName=GND Pin=U1-130
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=U1-106
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_1 Pin=U1-71
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetC17_1 Pin=C17-1
+Added Pin To Net: NetName=NetC17_1 Pin=G1-1
+Added Pin To Net: NetName=NetC17_1 Pin=U1-23
+Added Net: Name=NetC17_1
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=U1-24
+Added Pin To Net: NetName=NetC18_1 Pin=G1-3
+Added Net: Name=NetC18_1
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=G2-1
+Added Pin To Net: NetName=NetC19_1 Pin=U1-8
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=G2-2
+Added Pin To Net: NetName=NetC20_1 Pin=U1-9
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-25
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-138
+Added Net: Name=NetR2_2
+Added Class: Name=Designator
+Added Room: Name=Designator
