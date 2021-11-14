@@ -41,13 +41,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=MainBus.SchDoc
+DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -55,7 +55,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OGXUBVLB
+DocumentUniqueId=PHOJCBVW
 
 [Document2]
 DocumentPath=MainPorts.SchDoc
@@ -160,40 +160,6 @@ GenerateClassCluster=0
 DocumentUniqueId=UALUGBDV
 
 [Document8]
-DocumentPath=Connectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PHOJCBVW
-
-[Document9]
-DocumentPath=Connectors.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
 DocumentPath=USB_Type-C.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LZYANVXO
 
-[Document11]
+[Document9]
 DocumentPath=CAN_PHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +193,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document10]
 DocumentPath=USB_Type-C.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document11]
 DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
