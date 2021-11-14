@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=MPPT_EN Pin=U11-2
+Change Component Footprint: Designator=R41 Old Footprint=RES 0402 New Footprint=RES 1210
+Change Component Comment : Designator=R41 Old Comment=RES 0402 50 mOhm New Comment=RES 1210 50 mOhm
+Added Component: Designator=R?(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MPPT_EN Pin=R?-2
+Change Net Name : Old Net Name=MPPT_EN New Net Name=NetR38_2
+Added Pin To Net: NetName=MPPT_EN Pin=R?-1
+Added Pin To Net: NetName=MPPT_EN Pin=U11-2
+Added Net: Name=MPPT_EN

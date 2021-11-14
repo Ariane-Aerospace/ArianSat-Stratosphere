@@ -1,0 +1,162 @@
+Removed Pin From Net: NetName=NetR58_2 Pin=U10-13
+Removed Pin From Net: NetName=NetR70_2 Pin=U10-30
+Change Component Comment : Designator=R57 Old Comment=RES 0402 330 New Comment=RES 0402 *
+Change Component Comment : Designator=R58 Old Comment=RES 0402 330 New Comment=RES 0402 *
+Change Component Comment : Designator=R70 Old Comment=RES 0402 330 New Comment=RES 0402 *
+Change Component Comment : Designator=R71 Old Comment=RES 0402 330 New Comment=RES 0402 *
+Change Component Comment : Designator=R72 Old Comment=RES 0402 330 New Comment=RES 0402 *
+Change Component Comment : Designator=R73 Old Comment=RES 0402 330 New Comment=RES 0402 *
+Change component parameters: Designator = "R57" ("R61"); Footprint = "RES 0402"; UniqueID = "\BSPJXKKQ\TLUSTDCP" ("\BSPJXKKQ\TLUSTDCP")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R58" ("R62"); Footprint = "RES 0402"; UniqueID = "\BSPJXKKQ\TMYFOAIZ" ("\BSPJXKKQ\TMYFOAIZ")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R70" ("R63"); Footprint = "RES 0402"; UniqueID = "\BSPJXKKQ\AUKEMUFP" ("\BSPJXKKQ\AUKEMUFP")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R71" ("R64"); Footprint = "RES 0402"; UniqueID = "\BSPJXKKQ\JFTYGLXH" ("\BSPJXKKQ\JFTYGLXH")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R72" ("R65"); Footprint = "RES 0402"; UniqueID = "\BSPJXKKQ\ZILTNURR" ("\BSPJXKKQ\ZILTNURR")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R73" ("R66"); Footprint = "RES 0402"; UniqueID = "\BSPJXKKQ\RDSQEIJT" ("\BSPJXKKQ\RDSQEIJT")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R40(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R44(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R45(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R46(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R47(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R48(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R49(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R50(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R51(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R52(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R53(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R54(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U8(SO-8)
+Added Component: Designator=U12(SO-8)
+Added Component: Designator=U18(SO-8)
+Added Component: Designator=U19(SO-8)
+Added Component: Designator=VT6(SOT23-3)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR57_1 Pin=R58-1
+Added Pin To Net: NetName=NetR58_2 Pin=R70-1
+Added Pin To Net: NetName=GND Pin=R72-1
+Added Pin To Net: NetName=NetR70_2 Pin=R72-2
+Added Pin To Net: NetName=NetR71_1 Pin=R73-1
+Added Pin To Net: NetName=GND Pin=R73-2
+Added Pin To Net: NetName=NetR33_1 Pin=U8-2
+Added Pin To Net: NetName=NetU8_3 Pin=U8-3
+Added Pin To Net: NetName=GND Pin=U8-4
+Added Pin To Net: NetName=VSYS Pin=U8-8
+Added Pin To Net: NetName=GND Pin=U12-4
+Added Pin To Net: NetName=NetR70_2 Pin=U18-2
+Added Pin To Net: NetName=GND Pin=U18-4
+Added Pin To Net: NetName=NetR71_1 Pin=U18-6
+Added Pin To Net: NetName=NetR57_1 Pin=U19-6
+Added Pin To Net: NetName=NetR58_2 Pin=U19-7
+Added Pin To Net: NetName=GND Pin=VT6-2
+Change Net Name : Old Net Name=NetU8_1 New Net Name=NetU9_8
+Added Pin To Net: NetName=NetR40_1 Pin=R40-1
+Added Pin To Net: NetName=NetR40_1 Pin=U10-43
+Added Net: Name=NetR40_1
+Added Pin To Net: NetName=NetR40_2 Pin=R40-2
+Added Pin To Net: NetName=NetR40_2 Pin=X5-17
+Added Net: Name=NetR40_2
+Added Pin To Net: NetName=NetR44_1 Pin=R44-1
+Added Pin To Net: NetName=NetR44_1 Pin=U10-42
+Added Net: Name=NetR44_1
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR44_2 Pin=X5-18
+Added Net: Name=NetR44_2
+Added Pin To Net: NetName=NetR45_1 Pin=R45-1
+Added Net: Name=NetR45_1
+Added Pin To Net: NetName=NetR45_2 Pin=R45-2
+Added Pin To Net: NetName=NetR45_2 Pin=X5-19
+Added Net: Name=NetR45_2
+Added Pin To Net: NetName=NetR46_1 Pin=R46-1
+Added Net: Name=NetR46_1
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=NetR46_2 Pin=X5-20
+Added Net: Name=NetR46_2
+Added Pin To Net: NetName=NetR47_1 Pin=R47-1
+Added Net: Name=NetR47_1
+Added Pin To Net: NetName=NetR47_2 Pin=R47-2
+Added Pin To Net: NetName=NetR47_2 Pin=X5-39
+Added Net: Name=NetR47_2
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Net: Name=NetR48_1
+Added Pin To Net: NetName=NetR48_2 Pin=R48-2
+Added Pin To Net: NetName=NetR48_2 Pin=X5-40
+Added Net: Name=NetR48_2
+Added Pin To Net: NetName=NetR49_1 Pin=R49-1
+Added Net: Name=NetR49_1
+Added Pin To Net: NetName=NetR49_2 Pin=R49-2
+Added Pin To Net: NetName=NetR49_2 Pin=X5-73
+Added Net: Name=NetR49_2
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Net: Name=NetR50_1
+Added Pin To Net: NetName=NetR50_2 Pin=R50-2
+Added Pin To Net: NetName=NetR50_2 Pin=X5-74
+Added Net: Name=NetR50_2
+Added Pin To Net: NetName=NetR51_1 Pin=R51-1
+Added Pin To Net: NetName=NetR51_1 Pin=U18-1
+Added Pin To Net: NetName=NetR51_1 Pin=U18-5
+Added Net: Name=NetR51_1
+Added Pin To Net: NetName=NetR51_2 Pin=R51-2
+Added Pin To Net: NetName=NetR51_2 Pin=R54-2
+Added Pin To Net: NetName=NetR51_2 Pin=U18-3
+Added Net: Name=NetR51_2
+Added Pin To Net: NetName=NetR52_1 Pin=R52-1
+Added Pin To Net: NetName=NetR52_1 Pin=VT6-3
+Added Net: Name=NetR52_1
+Added Pin To Net: NetName=NetR53_1 Pin=R53-1
+Added Pin To Net: NetName=NetR53_1 Pin=R57-2
+Added Pin To Net: NetName=NetR53_1 Pin=U12-2
+Added Net: Name=NetR53_1
+Added Pin To Net: NetName=NetR53_2 Pin=R53-2
+Added Pin To Net: NetName=NetR53_2 Pin=R54-1
+Added Pin To Net: NetName=NetR53_2 Pin=U12-1
+Added Net: Name=NetR53_2
+Added Pin To Net: NetName=NetR75_2 Pin=U10-30
+Added Net: Name=NetR75_2
+Added Pin To Net: NetName=NetR76_2 Pin=U10-31
+Added Net: Name=NetR76_2
+Added Pin To Net: NetName=NetR80_2 Pin=U10-12
+Added Net: Name=NetR80_2
+Added Pin To Net: NetName=NetR81_2 Pin=U10-13
+Added Net: Name=NetR81_2
+Added Pin To Net: NetName=NetU12_3 Pin=U12-3
+Added Net: Name=NetU12_3
+Added Pin To Net: NetName=NetU18_7 Pin=U18-7
+Added Pin To Net: NetName=NetU18_7 Pin=VT6-1
+Added Net: Name=NetU18_7
+Added Pin To Net: NetName=NetU19_5 Pin=U19-5
+Added Net: Name=NetU19_5

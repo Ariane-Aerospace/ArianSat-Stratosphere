@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetC73_2 Pin=C74-2
+Added Pin To Net: NetName=NetC73_2 Pin=U17-3
+Added Pin To Net: NetName=NetR73_1 Pin=X5-17
+Added Pin To Net: NetName=NetR72_1 Pin=X5-18
+Change Net Name : Old Net Name=CSP New Net Name=BAT_2S

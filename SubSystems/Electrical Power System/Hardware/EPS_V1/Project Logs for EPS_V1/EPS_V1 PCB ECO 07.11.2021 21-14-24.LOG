@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetR53_2 Pin=U12-1
+Removed Pin From Net: NetName=NetR53_1 Pin=U12-2
+Removed Pin From Net: NetName=GND Pin=U12-4
+Removed Pin From Net: NetName=NetR57_1 Pin=U19-6
+Removed Pin From Net: NetName=NetR58_2 Pin=U19-7
+Added Component: Designator=U8(DFN-8-2x2)
+Added Pin To Net: NetName=NetR53_2 Pin=U8-1
+Added Pin To Net: NetName=NetR53_1 Pin=U8-2
+Added Pin To Net: NetName=GND Pin=U8-4
+Added Pin To Net: NetName=NetR57_1 Pin=U8-6
+Added Pin To Net: NetName=NetR58_2 Pin=U8-7
+Added Pin To Net: NetName=NetU8_3 Pin=U8-3
+Added Net: Name=NetU8_3
+Added Pin To Net: NetName=NetU8_5 Pin=U8-5
+Added Net: Name=NetU8_5

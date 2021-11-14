@@ -31,3 +31,66 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-01 17:27:24.662
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2021-11-06 18:32:10.379 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-06 18:32:12.793
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-06 18:32:12.831
+!MESSAGE Log4j initialized with config file C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-06 18:32:16.663
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2021-11-07 00:00:42.619 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-07 00:00:44.844
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-07 00:00:44.878
+!MESSAGE Log4j initialized with config file C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-07 00:00:48.547
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2021-11-09 19:32:43.372 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-09 19:32:52.961
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-09 19:32:53.005
+!MESSAGE Log4j initialized with config file C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-09 19:33:02.709
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-09 19:34:18.312
+!MESSAGE Indexed 'AS-S_OBC_V1' (21 sources, 81 headers) in 2.56 sec: 4,391 declarations; 17,578 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+!SESSION 2021-11-13 09:20:02.308 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-13 09:20:08.689
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-13 09:20:08.732
+!MESSAGE Log4j initialized with config file C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-13 09:20:17.171
+!MESSAGE Started RMI Server, listening on port 41337

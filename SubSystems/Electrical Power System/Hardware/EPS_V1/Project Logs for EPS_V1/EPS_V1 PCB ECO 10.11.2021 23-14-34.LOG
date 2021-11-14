@@ -1,0 +1,7 @@
+Added Component: Designator=R13(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=NetR89_1 Pin=R13-2
+Change Net Name : Old Net Name=NetR89_1 New Net Name=NetR13_2
+Added Member To Class: ClassName=Vbat_key Member=Component R13 RES 0402 10k

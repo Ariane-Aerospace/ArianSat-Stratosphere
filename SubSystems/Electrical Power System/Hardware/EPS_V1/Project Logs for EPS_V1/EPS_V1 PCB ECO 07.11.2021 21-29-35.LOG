@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=C72-1
+Removed Pin From Net: NetName=GND Pin=R69-1
+Removed Pin From Net: NetName=BAT_2S Pin=U15-2
+Removed Pin From Net: NetName=GND Pin=U15-6
+Removed Pin From Net: NetName=NetUSB1_A4B9 Pin=VD5-A
+Removed Pin From Net: NetName=BAT_2S Pin=VT8-3

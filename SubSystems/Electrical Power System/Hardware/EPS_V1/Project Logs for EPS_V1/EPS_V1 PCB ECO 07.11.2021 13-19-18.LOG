@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=L3 Old Footprint=IND 0603 New Footprint=IND-4.6x4.6
+Change Component Comment : Designator=L3 Old Comment=IND 0603 10uH 2A New Comment=IND-4.6x4.6 10uH 2A
+Added Room: Name=CAN_PHY1
+Added Room: Name=CAN_PHY2
+Added Room: Name=Connectors

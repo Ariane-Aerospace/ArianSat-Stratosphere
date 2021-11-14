@@ -1,0 +1,20 @@
+Added Component: Designator=R9(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "HEAT"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "HEAT"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "HEAT"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "HEAT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=BAT_2S Pin=R9-2
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Pin To Net: NetName=BAT_2S Pin=R10-2
+Added Pin To Net: NetName=NetR9_1 Pin=R11-1
+Added Pin To Net: NetName=BAT_2S Pin=R11-2
+Added Pin To Net: NetName=NetR9_1 Pin=R12-1
+Added Pin To Net: NetName=BAT_2S Pin=R12-2

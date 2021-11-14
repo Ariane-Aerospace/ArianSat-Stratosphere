@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=C40 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Comment : Designator=C40 Old Comment=CERCAP 0402 10uF * X7R New Comment=CERCAP 0603 10uF * X7R

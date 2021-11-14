@@ -1,0 +1,9 @@
+Change Net Name : Old Net Name=BAT_2S New Net Name=CSP
+Change Net Name : Old Net Name=GND New Net Name=LDRV
+Change Net Name : Old Net Name=NetC39_2 New Net Name=VCC
+Change Net Name : Old Net Name=NetC42_1 New Net Name=PH
+Change Net Name : Old Net Name=NetC43_1 New Net Name=VREF
+Change Net Name : Old Net Name=NetC46_1 New Net Name=FB
+Change Net Name : Old Net Name=NetC47_2 New Net Name=CSN
+Change Net Name : Old Net Name=NetR38_2 New Net Name=MPPT_EN
+Change Net Name : Old Net Name=NetU11_15 New Net Name=HDRV

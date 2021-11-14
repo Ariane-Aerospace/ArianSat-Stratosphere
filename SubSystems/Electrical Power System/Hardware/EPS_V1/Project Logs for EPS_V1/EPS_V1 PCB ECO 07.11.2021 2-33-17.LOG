@@ -1,0 +1,20 @@
+Change Component Comment : Designator=C73 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 0.1uF * X7R
+Change Component Comment : Designator=C74 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 0.1uF * X7R
+Change component parameters: Designator = "C73" ("C54"); Footprint = "CERCAP 0402"; UniqueID = "\CSBXWPJF\MZFOZCGP" ("\CSBXWPJF\MZFOZCGP")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C74" ("C54"); Footprint = "CERCAP 0402"; UniqueID = "\MAGJEHQF\MZFOZCGP" ("\MAGJEHQF\MZFOZCGP")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C73-1
+Added Pin To Net: NetName=GND Pin=C74-1
+Added Pin To Net: NetName=GND Pin=U16-2
+Added Pin To Net: NetName=GND Pin=U17-2
+Added Member To Class: ClassName=Connectors Member=Component X2 (X3) MolexPicoblade 4p
+Added Member To Class: ClassName=Connectors Member=Component X5 (X1A) PC104
+Added Room: Name=CAN_PHY1
+Added Room: Name=CAN_PHY2

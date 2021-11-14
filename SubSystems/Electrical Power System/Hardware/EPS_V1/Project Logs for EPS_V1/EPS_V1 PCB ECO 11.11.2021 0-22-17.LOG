@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=U15 Old Footprint=SOT23-3 New Footprint=SOT223
+Change Component Footprint: Designator=U19 Old Footprint=SOT23-3 New Footprint=SOT223
+Change Component Comment : Designator=U15 Old Comment=LD1117-3.3 New Comment=Model?
+Change Component Comment : Designator=U19 Old Comment=LD1117-5 New Comment=Model?
+Change component parameters: Designator = "U15" ("U11"); Footprint = "SOT23-3"; UniqueID = "\CGUBGAYV\TPKCYSCJ" ("\CGUBGAYV\TPKCYSCJ")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "V?"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U19" ("U13"); Footprint = "SOT23-3"; UniqueID = "\CGUBGAYV\OXQVZQFN" ("\CGUBGAYV\OXQVZQFN")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "V?"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U15-1
+Added Pin To Net: NetName=3V3_SYS Pin=U15-2
+Added Pin To Net: NetName=3V3_SYS Pin=U15-2
+Added Pin To Net: NetName=BAT_2S Pin=U15-3
+Added Pin To Net: NetName=GND Pin=U19-1
+Added Pin To Net: NetName=5V_SYS Pin=U19-2
+Added Pin To Net: NetName=5V_SYS Pin=U19-2
+Added Pin To Net: NetName=BAT_2S Pin=U19-3

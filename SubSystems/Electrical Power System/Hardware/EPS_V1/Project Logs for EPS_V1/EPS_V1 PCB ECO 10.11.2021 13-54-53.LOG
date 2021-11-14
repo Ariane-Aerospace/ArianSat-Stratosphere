@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=BAT_2S Pin=R9-2
+Removed Pin From Net: NetName=BAT_2S Pin=R10-2
+Removed Pin From Net: NetName=BAT_2S Pin=R11-2
+Removed Pin From Net: NetName=BAT_2S Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=GND Pin=VT1-1
+Removed Pin From Net: NetName=GND Pin=VT1-2
+Removed Pin From Net: NetName=GND Pin=VT1-3
+Removed Pin From Net: NetName=NetU10_45 Pin=X5-21
+Change Component Comment : Designator=R47 Old Comment=RES 0402 550k New Comment=RES 0402 550k??
+Change component parameters: Designator = "R47" ("R28"); Footprint = "RES 0402"; UniqueID = "\IRJSCQEN\RYMBQKGD" ("\IRJSCQEN\RYMBQKGD")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "550k??"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3_SYS Pin=X11-4
+Added Pin To Net: NetName=3V3_SYS Pin=X12-4
+Added Pin To Net: NetName=3V3_SYS Pin=X13-4
+Added Pin To Net: NetName=3V3_SYS Pin=X14-4
+Change Net Name : Old Net Name=NetC32_2 New Net Name=VCAP1
+Added Pin To Net: NetName=NetX5_21 Pin=X5-21
+Added Net: Name=NetX5_21

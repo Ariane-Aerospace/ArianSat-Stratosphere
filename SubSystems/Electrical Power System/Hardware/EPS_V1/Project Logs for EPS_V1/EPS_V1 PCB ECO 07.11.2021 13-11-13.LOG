@@ -1,0 +1,136 @@
+Removed Pin From Net: NetName=GND Pin=C48-1
+Removed Pin From Net: NetName=GND Pin=C49-1
+Removed Pin From Net: NetName=GND Pin=C50-2
+Removed Pin From Net: NetName=GND Pin=C51-1
+Removed Pin From Net: NetName=GND Pin=C53-2
+Removed Pin From Net: NetName=BAT_2S Pin=C54-1
+Removed Pin From Net: NetName=GND Pin=C54-2
+Removed Pin From Net: NetName=BAT_2S Pin=C55-1
+Removed Pin From Net: NetName=GND Pin=C55-2
+Removed Pin From Net: NetName=BAT_2S Pin=C56-2
+Removed Pin From Net: NetName=BAT_2S Pin=C57-1
+Removed Pin From Net: NetName=NetR38_2 Pin=R39-2
+Removed Pin From Net: NetName=GND Pin=R40-1
+Removed Pin From Net: NetName=NetR38_2 Pin=R44-1
+Removed Pin From Net: NetName=NetR38_2 Pin=R45-1
+Removed Pin From Net: NetName=NetR47_2 Pin=R47-2
+Removed Pin From Net: NetName=NetR47_2 Pin=R48-2
+Removed Pin From Net: NetName=GND Pin=R49-1
+Removed Pin From Net: NetName=BAT_2S Pin=R50-2
+Removed Pin From Net: NetName=BAT_2S Pin=R51-2
+Removed Pin From Net: NetName=GND Pin=R52-1
+Removed Pin From Net: NetName=NetR47_2 Pin=R53-1
+Removed Pin From Net: NetName=NetR47_2 Pin=R54-1
+Removed Pin From Net: NetName=BAT_2S Pin=U12-10
+Removed Pin From Net: NetName=GND Pin=U12-11
+Removed Pin From Net: NetName=GND Pin=U12-TH
+Removed Pin From Net: NetName=NetR47_2 Pin=VD3-A
+Removed Pin From Net: NetName=NetU11_15 Pin=VT4-1
+Removed Pin From Net: NetName=NetC40_1 Pin=VT4-3
+Removed Pin From Net: NetName=NetU11_13 Pin=VT5-1
+Removed Pin From Net: NetName=NetC42_1 Pin=VT5-3
+Removed Pin From Net: NetName=GND Pin=VT7-2
+Change Component Footprint: Designator=VT4 Old Footprint=SOT23-3 New Footprint=DFN-8_3x3
+Change Component Footprint: Designator=VT5 Old Footprint=SOT23-3 New Footprint=DFN-8_3x3
+Change Component Comment : Designator=C42 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 0.1uF * X7R
+Change Component Comment : Designator=C47 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 0.1uF * X7R
+Change Component Comment : Designator=C38 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 1uF * X7R
+Change Component Comment : Designator=C39 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 1uF * X7R
+Change Component Comment : Designator=C43 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 1uF * X7R
+Change Component Comment : Designator=C41 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 2.2uF * X7R
+Change Component Comment : Designator=C40 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 10uF * X7R
+Change Component Comment : Designator=C46 Old Comment=CERCAP 0402 * * X7R New Comment=CERCAP 0402 22pF * X7R
+Change Component Comment : Designator=L3 Old Comment=IND 0603 * New Comment=IND 0603 10uH 2A
+Change Component Comment : Designator=R38 Old Comment=RES 0402 * New Comment=RES 0402 2Ohm
+Change Component Comment : Designator=R37 Old Comment=RES 0402 * New Comment=RES 0402 10 Ohm
+Change Component Comment : Designator=R41 Old Comment=RES 0402 * New Comment=RES 0402 50 mOhm
+Change Component Comment : Designator=R43 Old Comment=RES 0402 * New Comment=RES 0402 100k
+Change Component Comment : Designator=R42 Old Comment=RES 0402 * New Comment=RES 0402 499k
+Change Component Comment : Designator=C45 Old Comment=TECAP A * * X7R New Comment=TECAP A 4.7uF * X7R
+Change Component Comment : Designator=C44 Old Comment=TECAP A * * X7R New Comment=TECAP A 10uF * X7R
+Change component parameters: Designator = "C38" ("C14"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\GNBCGEOY" ("\BTPQLRSA\GNBCGEOY")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C39" ("C15"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\VLJIZIQQ" ("\BTPQLRSA\VLJIZIQQ")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C40" ("C16"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\KVDSYVBG" ("\BTPQLRSA\KVDSYVBG")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C41" ("C17"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\OEWVLFEU" ("\BTPQLRSA\OEWVLFEU")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C42" ("C18"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\HFLQVULI" ("\BTPQLRSA\HFLQVULI")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C43" ("C19"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\LUWEQHIV" ("\BTPQLRSA\LUWEQHIV")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C44" ("C20"); Footprint = "TECAP A"; UniqueID = "\BTPQLRSA\UHMBKRAO" ("\BTPQLRSA\UHMBKRAO")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C45" ("C21"); Footprint = "TECAP A"; UniqueID = "\BTPQLRSA\TTJEQATM" ("\BTPQLRSA\TTJEQATM")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C46" ("C22"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\ASZHWONT" ("\BTPQLRSA\ASZHWONT")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C47" ("C23"); Footprint = "CERCAP 0402"; UniqueID = "\BTPQLRSA\FBCVFPIP" ("\BTPQLRSA\FBCVFPIP")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3" ("L1"); Footprint = "IND 0603"; UniqueID = "\BTPQLRSA\QRTRHAVH" ("\BTPQLRSA\QRTRHAVH")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uH 2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R37" ("R16"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\SUKZCZZY" ("\BTPQLRSA\SUKZCZZY")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 Ohm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R38" ("R17"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\BUPRMTYQ" ("\BTPQLRSA\BUPRMTYQ")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2Ohm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R41" ("R20"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\RFSWWFGH" ("\BTPQLRSA\RFSWWFGH")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "50 mOhm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R42" ("R21"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\AGWXYZTN" ("\BTPQLRSA\AGWXYZTN")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "499k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R22"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\MVMJDDWN" ("\BTPQLRSA\MVMJDDWN")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR38_2 Pin=U11-2
+Added Pin To Net: NetName=NetC42_1 Pin=VT4-1
+Added Pin To Net: NetName=NetC42_1 Pin=VT4-3
+Added Pin To Net: NetName=NetU11_15 Pin=VT4-4
+Added Pin To Net: NetName=NetC40_1 Pin=VT4-5
+Added Pin To Net: NetName=NetC40_1 Pin=VT4-6
+Added Pin To Net: NetName=NetC40_1 Pin=VT4-7
+Added Pin To Net: NetName=NetC40_1 Pin=VT4-8
+Added Pin To Net: NetName=NetC40_1 Pin=VT4-TH
+Added Pin To Net: NetName=GND Pin=VT5-1
+Added Pin To Net: NetName=GND Pin=VT5-3
+Added Pin To Net: NetName=NetU11_13 Pin=VT5-4
+Added Pin To Net: NetName=NetC42_1 Pin=VT5-5
+Added Pin To Net: NetName=NetC42_1 Pin=VT5-6
+Added Pin To Net: NetName=NetC42_1 Pin=VT5-7
+Added Pin To Net: NetName=NetC42_1 Pin=VT5-8
+Added Pin To Net: NetName=NetC42_1 Pin=VT5-TH
+Change Net Name : Old Net Name=NetR47_2 New Net Name=NetX4_3

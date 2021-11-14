@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=CSP Pin=C45-1
+Removed Pin From Net: NetName=GND Pin=C45-2
+Change Component Footprint: Designator=C41 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=VD2 Old Footprint=SOD-323 New Footprint=SOD-123
+Change Component Footprint: Designator=C45 Old Footprint=TECAP A New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C44 Old Footprint=TECAP A New Footprint=TECAP B
+Change Component Comment : Designator=C41 Old Comment=CERCAP 0402 2.2uF * X7R New Comment=CERCAP 0603 2.2uF * X7R
+Change Component Comment : Designator=C45 Old Comment=TECAP A 4.7uF * X7R New Comment=CERCAP 0603 10uF * X7R
+Change Component Comment : Designator=C44 Old Comment=TECAP A 10uF * X7R New Comment=TECAP B 47uF * X7R
+Change component parameters: Designator = "C44" ("C20"); Footprint = "TECAP A"; UniqueID = "\BTPQLRSA\KOFDLAUK" ("\BTPQLRSA\KOFDLAUK")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C45" ("C21"); Footprint = "TECAP A"; UniqueID = "\BTPQLRSA\KQKSLMRC" ("\BTPQLRSA\KQKSLMRC")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C48(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C45-1
+Added Pin To Net: NetName=CSP Pin=C45-2
+Added Pin To Net: NetName=GND Pin=C48-1
+Added Pin To Net: NetName=CSP Pin=C48-2

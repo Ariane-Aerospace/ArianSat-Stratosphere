@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetR101_1 Pin=VT14-1
+Removed Pin From Net: NetName=NetR100_1 Pin=VT14-3
+Change Component Footprint: Designator=VT14 Old Footprint=SOT23-3 New Footprint=DFN-8_3x3
+Added Pin To Net: NetName=BAT_2S Pin=VT14-1
+Added Pin To Net: NetName=BAT_2S Pin=VT14-3
+Added Pin To Net: NetName=NetR101_1 Pin=VT14-4
+Added Pin To Net: NetName=NetR100_1 Pin=VT14-5
+Added Pin To Net: NetName=NetR100_1 Pin=VT14-6
+Added Pin To Net: NetName=NetR100_1 Pin=VT14-7
+Added Pin To Net: NetName=NetR100_1 Pin=VT14-8
+Added Pin To Net: NetName=NetR100_1 Pin=VT14-TH
+Change Class Name : Old Net Name=AuxChannels1 New Net Name=AuxChannels2
+Change Class Name : Old Net Name=AuxChannels2 New Net Name=AuxChannels1
