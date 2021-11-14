@@ -3,4 +3,6 @@ Record=SheetSymbol|SourceDocument=MainPorts.SchDoc|Designator=Designator|SchDesi
 Record=SheetSymbol|SourceDocument=MainPorts.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=PeripheralsBus.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=PeripheralsBus.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MainPorts.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=MCU.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MainPorts.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Storage.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Storage.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=MainPorts.SchDoc|FileName=PowerReader.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=MainPorts.SchDoc|FileName=CAN_PHY.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=MainPorts.SchDoc|FileName=Connectors.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=MainPorts.SchDoc|FileName=USB_Type-C.SchDoc|SheetNumber=8
