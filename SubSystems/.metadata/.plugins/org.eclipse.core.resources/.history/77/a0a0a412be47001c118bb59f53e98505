@@ -1,0 +1,17 @@
+#ifndef INC_DS18B20_PORT_H_
+#define INC_DS18B20_PORT_H_
+
+
+#include "stm32f4xx_hal.h"
+#include "main.h"
+
+#define DS18_ DS18_DQ_GPIO_Port
+#define qwerty DS18_DQ_Pin
+
+
+uint8_t DS18_USER_GPIO_HIZ_IN();
+void DS18_USER_GPIO_ToGround();
+
+void DS18B20_USER_DelayMicroSec(volatile uint32_t micros);
+
+#endif /* INC_DS18B20_PORT_H_ */

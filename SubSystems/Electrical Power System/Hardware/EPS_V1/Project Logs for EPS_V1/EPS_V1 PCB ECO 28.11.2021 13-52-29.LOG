@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DS18_DQ Pin=TP27-1
+Removed Pin From Net: NetName=HEAT3 Pin=TP31-1
+Removed Pin From Net: NetName=DS18_DQ Pin=U10-21
+Removed Pin From Net: NetName=HEAT3 Pin=U10-28
+Added Pin To Net: NetName=HEAT3 Pin=TP27-1
+Added Pin To Net: NetName=DS18_DQ Pin=TP31-1
+Added Pin To Net: NetName=HEAT3 Pin=U10-21
+Added Pin To Net: NetName=DS18_DQ Pin=U10-28

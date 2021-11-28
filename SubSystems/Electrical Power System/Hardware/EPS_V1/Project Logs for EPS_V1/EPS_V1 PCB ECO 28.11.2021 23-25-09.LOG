@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetC92_1 Pin=C92-1
+Removed Pin From Net: NetName=GND Pin=C92-2
+Change Component Footprint: Designator=C92 Old Footprint=TECAP A New Footprint=CERCAP 0603
+Change Component Comment : Designator=C92 Old Comment=TECAP A 1uF * X7R New Comment=CERCAP 0603 1uF * X7R
+Change Component Kind : Designator=R120 Old Kind=Standard New Kind=Standard (No BOM)
+Added Pin To Net: NetName=GND Pin=C92-1
+Added Pin To Net: NetName=NetC92_1 Pin=C92-2
+Change Net Name : Old Net Name=NetC92_1 New Net Name=NetC92_2
+Added Room: Name=Debugger

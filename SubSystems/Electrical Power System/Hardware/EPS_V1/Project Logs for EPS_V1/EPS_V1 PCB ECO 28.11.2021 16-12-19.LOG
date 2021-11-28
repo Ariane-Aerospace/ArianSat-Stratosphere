@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=FREE2 Pin=TP32-1
+Removed Pin From Net: NetName=3V3_AUX1_EN Pin=TP33-1
+Removed Pin From Net: NetName=FREE2 Pin=U10-2
+Removed Pin From Net: NetName=3V3_AUX1_EN Pin=U10-3
+Added Pin To Net: NetName=3V3_AUX1_EN Pin=TP32-1
+Added Pin To Net: NetName=FREE2 Pin=TP33-1
+Added Pin To Net: NetName=3V3_AUX1_EN Pin=U10-2
+Added Pin To Net: NetName=FREE2 Pin=U10-3

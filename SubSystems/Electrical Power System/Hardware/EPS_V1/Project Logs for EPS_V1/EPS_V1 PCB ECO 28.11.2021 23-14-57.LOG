@@ -1,0 +1,54 @@
+Added Component: Designator=R120(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R121(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R122(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R123(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=VD6(SOD-323)
+Add component (AddParameter): Name = "BuyLink1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part #"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Order"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD7(SOD-323)
+Add component (AddParameter): Name = "BuyLink1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part #"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Order"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD8(SOD-323)
+Add component (AddParameter): Name = "BuyLink1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part #"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Order"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X15(MIPI-10)
+Added Pin To Net: NetName=3V3_SYS Pin=R120-2
+Added Pin To Net: NetName=SWDIO Pin=R121-2
+Added Pin To Net: NetName=SWCLK Pin=R122-2
+Added Pin To Net: NetName=EPS_RST Pin=R123-2
+Added Pin To Net: NetName=GND Pin=VD6-A
+Added Pin To Net: NetName=GND Pin=VD7-A
+Added Pin To Net: NetName=GND Pin=VD8-A
+Added Pin To Net: NetName=GND Pin=X15-3
+Added Pin To Net: NetName=GND Pin=X15-5
+Added Pin To Net: NetName=NetR120_1 Pin=R120-1
+Added Pin To Net: NetName=NetR120_1 Pin=X15-1
+Added Net: Name=NetR120_1
+Added Pin To Net: NetName=NetR121_1 Pin=R121-1
+Added Pin To Net: NetName=NetR121_1 Pin=VD8-C
+Added Pin To Net: NetName=NetR121_1 Pin=X15-2
+Added Net: Name=NetR121_1
+Added Pin To Net: NetName=NetR122_1 Pin=R122-1
+Added Pin To Net: NetName=NetR122_1 Pin=VD7-C
+Added Pin To Net: NetName=NetR122_1 Pin=X15-4
+Added Net: Name=NetR122_1
+Added Pin To Net: NetName=NetR123_1 Pin=R123-1
+Added Pin To Net: NetName=NetR123_1 Pin=VD6-C
+Added Pin To Net: NetName=NetR123_1 Pin=X15-10
+Added Net: Name=NetR123_1
+Added Class: Name=Debugger
+Added Room: Name=Debugger

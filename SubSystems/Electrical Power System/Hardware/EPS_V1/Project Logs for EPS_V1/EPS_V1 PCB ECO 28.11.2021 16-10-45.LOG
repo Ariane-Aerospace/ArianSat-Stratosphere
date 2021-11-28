@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=5V_AUX1_EN Pin=TP10-1
+Removed Pin From Net: NetName=VBAT_EN Pin=TP30-1
+Removed Pin From Net: NetName=VBAT_EN Pin=U10-27
+Removed Pin From Net: NetName=5V_AUX1_EN Pin=U10-39
+Added Pin To Net: NetName=VBAT_EN Pin=TP10-1
+Added Pin To Net: NetName=5V_AUX1_EN Pin=TP30-1
+Added Pin To Net: NetName=5V_AUX1_EN Pin=U10-27
+Added Pin To Net: NetName=VBAT_EN Pin=U10-39

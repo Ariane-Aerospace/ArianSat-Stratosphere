@@ -1,0 +1,18 @@
+#include "DS18B20_port.h"
+
+
+
+
+uint8_t DS18_USER_GPIO_HIZ_IN() {
+	//HAL_GPIO_WritePin(DS18_DQ_Port, GPIO_Pin, PinState)
+}
+void DS18_USER_GPIO_ToGround() {
+
+
+}
+void DS18B20_USER_DelayMicroSec(volatile uint32_t micros) {
+	micros = micros * (SystemCoreClock / 1000000UL) / 8;
+
+	while (micros--)
+		asm("NOP");
+}

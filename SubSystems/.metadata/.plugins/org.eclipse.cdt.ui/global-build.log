@@ -1,0 +1,194 @@
+12:58:56 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../USB_DEVICE/App/usb_device.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"USB_DEVICE/App/usb_device.d" -MT"USB_DEVICE/App/usb_device.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usb_device.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"USB_DEVICE/App/usbd_cdc_if.d" -MT"USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37228	    496	   6688	  44412	   ad7c	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+12:59:08 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37228	    496	   6688	  44412	   ad7c	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+13:05:14 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'SendAllData':
+../Core/Src/main.c:154:2: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+  154 |  CDC_Transmit_FS(USB_buffer, 22);
+      |  ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37224	    496	   6688	  44408	   ad78	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:13:12 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:14:40 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+../UserLibs/LSM6DS3/LSM6DS3.c: In function 'LSM6DS3_GyroConvert':
+../UserLibs/LSM6DS3/LSM6DS3.c:110:29: error: invalid suffix "f" on integer constant
+  110 |  pGyroDS[0] = pGyroRaw[0] / 17500f;
+      |                             ^~~~~~
+../UserLibs/LSM6DS3/LSM6DS3.c:111:29: error: invalid suffix "f" on integer constant
+  111 |  pGyroDS[1] = pGyroRaw[1] / 17500f;
+      |                             ^~~~~~
+../UserLibs/LSM6DS3/LSM6DS3.c:112:29: error: invalid suffix "f" on integer constant
+  112 |  pGyroDS[2] = pGyroRaw[2] / 17500f;
+      |                             ^~~~~~
+make: *** [UserLibs/LSM6DS3/subdir.mk:22: UserLibs/LSM6DS3/LSM6DS3.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:14:53 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:16:11 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:17:40 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:20:37 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:21:30 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+13:30:12 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 
+13:30:47 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37252	    496	   6688	  44436	   ad94	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+13:31:36 **** Incremental Build of configuration Debug for project MS_CPU_F4_ExampleFirmware ****
+make -j12 all 
+arm-none-eabi-gcc "../UserLibs/LSM6DS3/LSM6DS3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"C:/Users/Sergey/Desktop/MicroSatV1/MicroSat/Firmware/UserLibs" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"UserLibs/LSM6DS3/LSM6DS3.d" -MT"UserLibs/LSM6DS3/LSM6DS3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "UserLibs/LSM6DS3/LSM6DS3.o"
+arm-none-eabi-gcc -o "MS_CPU_F4_ExampleFirmware.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Sergey\Desktop\MicroSatV1\MicroSat\Firmware\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MS_CPU_F4_ExampleFirmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MS_CPU_F4_ExampleFirmware.elf
+ 
+arm-none-eabi-size   MS_CPU_F4_ExampleFirmware.elf 
+arm-none-eabi-objdump -h -S  MS_CPU_F4_ExampleFirmware.elf  > "MS_CPU_F4_ExampleFirmware.list"
+arm-none-eabi-objcopy  -O binary  MS_CPU_F4_ExampleFirmware.elf  "MS_CPU_F4_ExampleFirmware.bin"
+   text	   data	    bss	    dec	    hex	filename
+  37308	    496	   6688	  44492	   adcc	MS_CPU_F4_ExampleFirmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.bin
+ 
+Finished building: MS_CPU_F4_ExampleFirmware.list
+ 

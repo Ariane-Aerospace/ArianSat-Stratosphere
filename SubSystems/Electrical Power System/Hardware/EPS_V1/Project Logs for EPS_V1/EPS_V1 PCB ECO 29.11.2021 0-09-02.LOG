@@ -1,0 +1,8 @@
+Added Component: Designator=R124(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R124-2
+Added Pin To Net: NetName=NetR124_1 Pin=R124-1
+Added Pin To Net: NetName=NetR124_1 Pin=U16-8
+Added Pin To Net: NetName=NetR124_1 Pin=U17-8
+Added Net: Name=NetR124_1

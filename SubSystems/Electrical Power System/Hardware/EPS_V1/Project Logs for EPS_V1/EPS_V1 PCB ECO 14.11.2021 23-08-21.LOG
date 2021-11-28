@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=USB_D_P Pin=*1-1
+Added Pin To Net: NetName=5V_AUX1_EN Pin=U10-2
+Added Pin To Net: NetName=3V3_AUX1_EN Pin=U10-3
+Added Pin To Net: NetName=NetR89_1 Pin=U10-4
+Added Pin To Net: NetName=NetR55_1 Pin=U10-10
+Added Pin To Net: NetName=NetR65_1 Pin=U10-11
+Added Pin To Net: NetName=NetR62_1 Pin=U10-14
+Added Pin To Net: NetName=NetR50_1 Pin=U10-15
+Added Pin To Net: NetName=NetR33_1 Pin=U10-16
+Added Pin To Net: NetName=NetR9_1 Pin=U10-17
+Added Pin To Net: NetName=NetR51_1 Pin=U10-18
+Added Pin To Net: NetName=NetR88_1 Pin=U10-19
+Added Pin To Net: NetName=NetR34_2 Pin=U10-20
+Added Pin To Net: NetName=NetR52_1 Pin=U10-21
+Added Pin To Net: NetName=NetR89_1 Pin=U10-25
+Added Pin To Net: NetName=NetR64_2 Pin=U10-26
+Added Pin To Net: NetName=NetR78_2 Pin=U10-27
+Added Pin To Net: NetName=NetR61_2 Pin=U10-28
+Added Pin To Net: NetName=NetR10_1 Pin=U10-38
+Added Pin To Net: NetName=NetU10_41 Pin=U10-41
+Added Pin To Net: NetName=NetU10_41 Pin=U23-2
+Added Pin To Net: NetName=NetU10_41 Pin=U24-2
+Added Net: Name=NetU10_41

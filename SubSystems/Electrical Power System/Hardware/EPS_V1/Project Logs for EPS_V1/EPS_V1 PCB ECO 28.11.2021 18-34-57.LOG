@@ -1,0 +1,55 @@
+Added Component: Designator=C91(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C92(TECAP A)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C93(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R117(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R118(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5.8k"; VariantName = "[No Variations]"
+Added Component: Designator=R119(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1.4k"; VariantName = "[No Variations]"
+Added Component: Designator=U25(SO-8)
+Added Component: Designator=VT19(SOT23-3)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C91-1
+Added Pin To Net: NetName=GND Pin=C92-2
+Added Pin To Net: NetName=GND Pin=C93-1
+Added Pin To Net: NetName=CB_EN Pin=R117-1
+Added Pin To Net: NetName=GND Pin=U25-1
+Added Pin To Net: NetName=GND Pin=VT19-2
+Added Pin To Net: NetName=CB_EN Pin=VT19-3
+Added Pin To Net: NetName=NetC91_2 Pin=C91-2
+Added Pin To Net: NetName=NetC91_2 Pin=R117-2
+Added Pin To Net: NetName=NetC91_2 Pin=R118-2
+Added Pin To Net: NetName=NetC91_2 Pin=U25-4
+Added Pin To Net: NetName=NetC91_2 Pin=U25-8
+Added Net: Name=NetC91_2
+Added Pin To Net: NetName=NetC92_1 Pin=C92-1
+Added Pin To Net: NetName=NetC92_1 Pin=R119-1
+Added Pin To Net: NetName=NetC92_1 Pin=U25-2
+Added Pin To Net: NetName=NetC92_1 Pin=U25-6
+Added Net: Name=NetC92_1
+Added Pin To Net: NetName=NetC93_2 Pin=C93-2
+Added Pin To Net: NetName=NetC93_2 Pin=U25-5
+Added Net: Name=NetC93_2
+Added Pin To Net: NetName=NetR118_1 Pin=R118-1
+Added Pin To Net: NetName=NetR118_1 Pin=R119-2
+Added Pin To Net: NetName=NetR118_1 Pin=U25-7
+Added Net: Name=NetR118_1
+Added Pin To Net: NetName=NetU25_3 Pin=U25-3
+Added Pin To Net: NetName=NetU25_3 Pin=VT19-1
+Added Net: Name=NetU25_3

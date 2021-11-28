@@ -1,0 +1,13 @@
+/*
+ * MS5607_port.h
+ *
+ *  Created on: 1 февр. 2021 г.
+ *      Author: Sergei
+ */
+
+#ifndef MS5607_MS5607_PORT_H_
+#define MS5607_MS5607_PORT_H_
+
+#define MS5607_I2C_ADDR 0b111011x
+
+#endif /* MS5607_MS5607_PORT_H_ */

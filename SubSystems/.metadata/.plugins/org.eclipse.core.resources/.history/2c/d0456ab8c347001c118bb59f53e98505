@@ -1,0 +1,18 @@
+/*
+ * DS18B20.h
+ *
+ *  Created on: Jan 11, 2021
+ *      Author: Sergei
+ */
+
+#ifndef INC_DS18B20_H_
+#define INC_DS18B20_H_
+
+
+
+uint8_t DS18_ResetPulse_sens_detect();
+uint8_t DS18_Init(uint64_t id);
+uint8_t DS18_StartConv(uint64_t id);
+uint8_t DS18_GetData(uint64_t id, uint16_t* temp );
+
+#endif /* INC_DS18B20_H_ */
