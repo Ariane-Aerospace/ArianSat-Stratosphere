@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=SWDIO Pin=R121-2
+Removed Pin From Net: NetName=SWCLK Pin=R122-2
+Removed Pin From Net: NetName=GND Pin=X15-5
+Removed Pin From Net: NetName=NetR123_1 Pin=X15-10
+Change Component Footprint: Designator=X15 Old Footprint=MIPI-10 New Footprint=PLS-5-2.54
+Change Component Comment : Designator=X15 Old Comment=FTSH-105-01-L-DV-K New Comment=St-Link(nucleo)
+Added Pin To Net: NetName=SWCLK Pin=R121-2
+Added Pin To Net: NetName=SWDIO Pin=R122-2
+Added Pin To Net: NetName=NetR123_1 Pin=X15-5
