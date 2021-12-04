@@ -1,0 +1,7 @@
+Added Component: Designator=CPU1_U_CPU1(STM32H7_CPU)
+Added Component: Designator=CPU1_U_CPU2(STM32H7_CPU)
+Added Class: Name=U_CPU1
+Added Class: Name=U_CPU2
+Added Class: Name=CPU
+Added Room: Name=U_CPU1
+Added Room: Name=U_CPU2

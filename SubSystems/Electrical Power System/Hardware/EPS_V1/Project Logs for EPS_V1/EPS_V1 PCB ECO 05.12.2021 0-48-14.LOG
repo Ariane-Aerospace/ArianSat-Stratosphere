@@ -1,0 +1,8 @@
+Change Component Comment : Designator=U15 Old Comment=Model? New Comment=AMS1117-3.3
+Change Component Comment : Designator=U19 Old Comment=Model? New Comment=AMS1117-5
+Change component parameters: Designator = "U15" ("U11"); Footprint = "SOT223"; UniqueID = "\CGUBGAYV\TPKCYSCJ" ("\CGUBGAYV\TPKCYSCJ")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3V3"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U19" ("U13"); Footprint = "SOT223"; UniqueID = "\CGUBGAYV\OXQVZQFN" ("\CGUBGAYV\OXQVZQFN")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "5V"; VariantName = "[No Variations]"

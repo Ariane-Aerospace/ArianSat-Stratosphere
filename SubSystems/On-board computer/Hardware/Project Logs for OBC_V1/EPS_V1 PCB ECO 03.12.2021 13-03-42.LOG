@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=GND Pin=U3-3
+Removed Pin From Net: NetName=GND Pin=U3-9
+Removed Pin From Net: NetName=GND Pin=U3-12
+Removed Pin From Net: NetName=NetR23_2 Pin=U4-1
+Removed Pin From Net: NetName=LSM_VCC Pin=U4-5
+Removed Pin From Net: NetName=GND Pin=U4-6
+Removed Pin From Net: NetName=GND Pin=U4-7
+Removed Pin From Net: NetName=LSM_VCC Pin=U4-8
+Added Component: Designator=U?(LGA14_LSM6DS3)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Component: Designator=U?(LGA12_LIS3MDL)
+Add component (AddParameter): Name = "Order"; Value = "LIS3MDL"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR23_2 Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=LSM_VCC Pin=U?-5
+Added Pin To Net: NetName=LSM_VCC Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=LSM_VCC Pin=U?-6
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=LSM_VCC Pin=U?-8
+Added Pin To Net: NetName=GND Pin=U?-12
+Added Pin To Net: NetName=Cap Pin=U?-4
+Added Net: Name=Cap
+Added Pin To Net: NetName=LIS_MISO Pin=U?-9
+Added Net: Name=LIS_MISO
+Added Pin To Net: NetName=NetR?_1 Pin=U?-10
+Added Net: Name=NetR?_1
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=NetU?_1 Pin=U?-1
+Added Net: Name=NetU?_1
+Added Pin To Net: NetName=NetU?_4 Pin=U?-4
+Added Net: Name=NetU?_4
+Added Pin To Net: NetName=NetU?_7 Pin=U?-7
+Added Net: Name=NetU?_7
+Added Pin To Net: NetName=NetU?_8 Pin=U?-8
+Added Net: Name=NetU?_8
+Added Pin To Net: NetName=NetU?_9 Pin=U?-9
+Added Net: Name=NetU?_9
+Added Pin To Net: NetName=NetU?_11 Pin=U?-11
+Added Net: Name=NetU?_11
+Added Pin To Net: NetName=NetU?_12 Pin=U?-12
+Added Net: Name=NetU?_12
+Added Pin To Net: NetName=NetU?_13 Pin=U?-13
+Added Net: Name=NetU?_13
+Added Pin To Net: NetName=NetU?_14 Pin=U?-14
+Added Net: Name=NetU?_14

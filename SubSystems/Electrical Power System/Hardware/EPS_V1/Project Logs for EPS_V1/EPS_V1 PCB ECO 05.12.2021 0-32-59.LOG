@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=5V_CHARGE Pin=R48-1
+Removed Pin From Net: NetName=5V_CHARGE Pin=U12-4
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_1 Pin=U12-4
+Added Net: Name=NetR48_1

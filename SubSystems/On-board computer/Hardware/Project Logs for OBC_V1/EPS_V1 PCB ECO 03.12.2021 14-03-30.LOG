@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=C9 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C10 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C11 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=R26 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R27 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Comment : Designator=C9 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=C10 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=C11 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=R26 Old Comment=RES 0402 10k New Comment=RES 0603 10k
+Change Component Comment : Designator=R27 Old Comment=RES 0402 330 New Comment=RES 0603 330

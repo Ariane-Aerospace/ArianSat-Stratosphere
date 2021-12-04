@@ -1,0 +1,33 @@
+Change component parameters: Designator = "U3" ("U1"); Footprint = "LGA12_LIS3MDL"; UniqueID = "\FAATBOAB\YQPKTUFX" ("\FAATBOAB\YQPKTUFX")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C10(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C11(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R26(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R27(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=Cap Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=LSM_VCC Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=LSM_VCC Pin=C11-2
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=LSM_VCC Pin=R26-2
+Added Pin To Net: NetName=LIS_MISO Pin=R27-1
+Added Pin To Net: NetName=NetCPU1_81 Pin=R27-2

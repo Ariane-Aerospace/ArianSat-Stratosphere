@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=PWR_RX1A Pin=R40-1
+Removed Pin From Net: NetName=PWR_TX1A Pin=R44-1
+Change Component Comment : Designator=R125 Old Comment=RES 0402 X New Comment=RES 0402 5.23k
+Change Component Comment : Designator=R126 Old Comment=RES 0402 X New Comment=RES 0402 30.1k
+Change Component Comment : Designator=R47 Old Comment=RES 0402 550k?? New Comment=RES 0402 550k
+Change Component Comment : Designator=C16 Old Comment=TECAP B 47uF * X7R New Comment=TAJC686K016RNJ
+Change Component Comment : Designator=C19 Old Comment=TECAP B 47uF * X7R New Comment=TAJC686K016RNJ
+Change Component Comment : Designator=C24 Old Comment=TECAP B 100uF * X7R New Comment=TAJB107M010RNJ
+Change Component Comment : Designator=C65 Old Comment=TECAP B 100uF * X7R New Comment=TAJB107M010RNJ
+Change component parameters: Designator = "R47" ("R28"); Footprint = "RES 0402"; UniqueID = "\IRJSCQEN\RYMBQKGD" ("\IRJSCQEN\RYMBQKGD")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "550k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R125" ("R89"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\BLGRGXOV" ("\BTPQLRSA\BLGRGXOV")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "5.23k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R126" ("R90"); Footprint = "RES 0402"; UniqueID = "\BTPQLRSA\RDDGHVGN" ("\BTPQLRSA\RDDGHVGN")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "30.1k"; VariantName = "[No Variations]"
+Added Component: Designator=R127(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PWR_TX1A Pin=R40-1
+Added Pin To Net: NetName=PWR_RX1A Pin=R44-1
+Added Pin To Net: NetName=GND Pin=R127-1
+Added Pin To Net: NetName=MPPT_EN Pin=R127-2

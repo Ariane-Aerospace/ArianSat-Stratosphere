@@ -1,0 +1,94 @@
+Added Component: Designator=C1(CERCAP 0402)
+Added Component: Designator=C2(CERCAP 0402)
+Added Component: Designator=C3(CERCAP 0402)
+Added Component: Designator=C4(CERCAP 0402)
+Added Component: Designator=C5(CERCAP 0402)
+Added Component: Designator=C17(CERCAP 0402)
+Added Component: Designator=C18(CERCAP 0402)
+Added Component: Designator=C19(CERCAP 0402)
+Added Component: Designator=R2(RES 0402)
+Added Component: Designator=U3(LGA14_LSM6DS3)
+Added Component: Designator=U10(LGA12_LIS3MDL)
+Added Pin To Net: NetName=GND Pin=CPU1-3
+Added Pin To Net: NetName=GND Pin=CPU1-4
+Added Pin To Net: NetName=GND Pin=CPU1-49
+Added Pin To Net: NetName=GND Pin=CPU1-50
+Added Pin To Net: NetName=CPU_VDD Pin=CPU1-1
+Added Pin To Net: NetName=CPU_VDD Pin=CPU1-2
+Added Pin To Net: NetName=CPU_VDD Pin=CPU1-47
+Added Pin To Net: NetName=CPU_VDD Pin=CPU1-48
+Added Net: Name=CPU_VDD
+Added Net: Name=LIS_VCC
+Added Net: Name=LSM_VCC
+Added Net: Name=NetC17_2
+Added Pin To Net: NetName=NetCPU1_7 Pin=CPU1-7
+Added Net: Name=NetCPU1_7
+Added Pin To Net: NetName=NetCPU1_8 Pin=CPU1-8
+Added Net: Name=NetCPU1_8
+Added Pin To Net: NetName=NetCPU1_10 Pin=CPU1-10
+Added Net: Name=NetCPU1_10
+Added Pin To Net: NetName=NetCPU1_11 Pin=CPU1-11
+Added Net: Name=NetCPU1_11
+Added Pin To Net: NetName=NetCPU1_12 Pin=CPU1-12
+Added Net: Name=NetCPU1_12
+Added Pin To Net: NetName=NetCPU1_13 Pin=CPU1-13
+Added Net: Name=NetCPU1_13
+Added Pin To Net: NetName=NetCPU1_15 Pin=CPU1-15
+Added Net: Name=NetCPU1_15
+Added Pin To Net: NetName=NetCPU1_16 Pin=CPU1-16
+Added Net: Name=NetCPU1_16
+Added Pin To Net: NetName=NetCPU1_19 Pin=CPU1-19
+Added Pin To Net: NetName=NetCPU1_19 Pin=CPU1-51
+Added Pin To Net: NetName=NetCPU1_19 Pin=CPU1-64
+Added Net: Name=NetCPU1_19
+Added Pin To Net: NetName=NetCPU1_22 Pin=CPU1-22
+Added Pin To Net: NetName=NetCPU1_22 Pin=CPU1-52
+Added Pin To Net: NetName=NetCPU1_22 Pin=CPU1-65
+Added Net: Name=NetCPU1_22
+Added Pin To Net: NetName=NetCPU1_31 Pin=CPU1-31
+Added Net: Name=NetCPU1_31
+Added Pin To Net: NetName=NetCPU1_32 Pin=CPU1-32
+Added Net: Name=NetCPU1_32
+Added Pin To Net: NetName=NetCPU1_33 Pin=CPU1-33
+Added Net: Name=NetCPU1_33
+Added Pin To Net: NetName=NetCPU1_34 Pin=CPU1-34
+Added Net: Name=NetCPU1_34
+Added Pin To Net: NetName=NetCPU1_55 Pin=CPU1-55
+Added Net: Name=NetCPU1_55
+Added Pin To Net: NetName=NetCPU1_56 Pin=CPU1-56
+Added Net: Name=NetCPU1_56
+Added Pin To Net: NetName=NetCPU1_66 Pin=CPU1-66
+Added Net: Name=NetCPU1_66
+Added Pin To Net: NetName=NetCPU1_67 Pin=CPU1-67
+Added Net: Name=NetCPU1_67
+Added Pin To Net: NetName=NetCPU1_72 Pin=CPU1-72
+Added Net: Name=NetCPU1_72
+Added Pin To Net: NetName=NetCPU1_73 Pin=CPU1-73
+Added Net: Name=NetCPU1_73
+Added Pin To Net: NetName=NetCPU1_79 Pin=CPU1-79
+Added Net: Name=NetCPU1_79
+Added Pin To Net: NetName=NetCPU1_80 Pin=CPU1-80
+Added Net: Name=NetCPU1_80
+Added Pin To Net: NetName=NetCPU1_81 Pin=CPU1-81
+Added Net: Name=NetCPU1_81
+Added Pin To Net: NetName=NetCPU1_82 Pin=CPU1-82
+Added Net: Name=NetCPU1_82
+Added Pin To Net: NetName=NetCPU1_83 Pin=CPU1-83
+Added Net: Name=NetCPU1_83
+Added Pin To Net: NetName=NetCPU1_85 Pin=CPU1-85
+Added Net: Name=NetCPU1_85
+Added Pin To Net: NetName=NetCPU1_86 Pin=CPU1-86
+Added Net: Name=NetCPU1_86
+Added Net: Name=NetR2_1
+Added Net: Name=NetR2_2
+Added Net: Name=NetU3_12
+Added Net: Name=NetU3_13
+Added Net: Name=NetU3_14
+Added Net: Name=NetU10_1
+Added Net: Name=NetU10_11
+Added Class: Name=U_LIS3MDL
+Added Class: Name=U_LSM6DS3
+Added Room: Name=U_Connectors
+Added Room: Name=U_CPU
+Added Room: Name=U_LIS3MDL
+Added Room: Name=U_LSM6DS3

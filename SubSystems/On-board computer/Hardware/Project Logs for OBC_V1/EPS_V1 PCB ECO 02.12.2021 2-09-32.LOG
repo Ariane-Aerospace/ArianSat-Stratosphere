@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=U_Connectors Member=R19
+Removed Member From Class: ClassName=U_Connectors Member=R23
+Removed Member From Class: ClassName=U_Connectors Member=R73
+Removed Member From Class: ClassName=U_Connectors Member=R74
+Removed Member From Class: ClassName=U_Connectors Member=R75
+Removed Member From Class: ClassName=U_Connectors Member=R76
+Removed Member From Class: ClassName=U_Connectors Member=R79
+Removed Member From Class: ClassName=U_Connectors Member=R80
+Added Member To Class: ClassName=U_Connectors Member=Component X5 PC104
+Added Room: Name=U_Connectors

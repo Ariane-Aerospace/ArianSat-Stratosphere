@@ -1,0 +1,17 @@
+Change Component Comment : Designator=R74 Old Comment=RES 0402 * New Comment=RES 0402 60.1
+Change Component Comment : Designator=R77 Old Comment=RES 0402 * New Comment=RES 0402 60.1
+Change Component Comment : Designator=R79 Old Comment=RES 0402 * New Comment=RES 0402 60.1
+Change Component Comment : Designator=R82 Old Comment=RES 0402 * New Comment=RES 0402 60.1
+Change Component Comment : Designator=U10 Old Comment=STM32F4xxCxU New Comment=STM32F401CCU6
+Change component parameters: Designator = "R74" ("R53"); Footprint = "RES 0402"; UniqueID = "\CSBXWPJF\QAKYDBFE" ("\CSBXWPJF\QAKYDBFE")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "60.1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R77" ("R56"); Footprint = "RES 0402"; UniqueID = "\CSBXWPJF\XEYDOKDG" ("\CSBXWPJF\XEYDOKDG")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "60.1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R79" ("R53"); Footprint = "RES 0402"; UniqueID = "\MAGJEHQF\QAKYDBFE" ("\MAGJEHQF\QAKYDBFE")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "60.1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R82" ("R56"); Footprint = "RES 0402"; UniqueID = "\MAGJEHQF\XEYDOKDG" ("\MAGJEHQF\XEYDOKDG")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "60.1"; VariantName = "[No Variations]"

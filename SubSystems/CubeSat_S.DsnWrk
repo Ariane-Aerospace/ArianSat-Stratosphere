@@ -6,3 +6,5 @@ ProjectPath=Electrical Power System\Hardware\EPS_V1\EPS_V1.PrjPcb
 ProjectPath=RadioStrato\Hardware\RadioStrato_V1\RadioStrato_V1.PrjPcb
 [Project3]
 ProjectPath=..\Structural\SubAssemblies\AltiumMBD\EPS_V1.PrjMbd
+[Project4]
+ProjectPath=On-board computer\Hardware\OBC_V1.PrjPcb

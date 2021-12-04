@@ -1,0 +1,28 @@
+Change Component Footprint: Designator=C5 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C6 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C7 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C8 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=R13 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R14 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R15 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R16 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R17 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R18 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R19 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R20 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R21 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Footprint: Designator=R22 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Comment : Designator=C5 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=C6 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=C7 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=C8 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=R13 Old Comment=RES 0402 * New Comment=RES 0603 *
+Change Component Comment : Designator=R17 Old Comment=RES 0402 * New Comment=RES 0603 *
+Change Component Comment : Designator=R18 Old Comment=RES 0402 * New Comment=RES 0603 *
+Change Component Comment : Designator=R22 Old Comment=RES 0402 * New Comment=RES 0603 *
+Change Component Comment : Designator=R15 Old Comment=RES 0402 X New Comment=RES 0603 X
+Change Component Comment : Designator=R16 Old Comment=RES 0402 X New Comment=RES 0603 X
+Change Component Comment : Designator=R20 Old Comment=RES 0402 X New Comment=RES 0603 X
+Change Component Comment : Designator=R21 Old Comment=RES 0402 X New Comment=RES 0603 X
+Change Component Comment : Designator=R14 Old Comment=RES 0402 330 New Comment=RES 0603 330
+Change Component Comment : Designator=R19 Old Comment=RES 0402 330 New Comment=RES 0603 330

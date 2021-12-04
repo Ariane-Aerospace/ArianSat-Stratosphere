@@ -1,0 +1,45 @@
+Change Component Footprint: Designator=C12 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=R23 Old Footprint=RES 0402 New Footprint=RES 0603
+Change Component Comment : Designator=C12 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 0.1uF * X7R
+Change Component Comment : Designator=R23 Old Comment=RES 0402 330 New Comment=RES 0603 330
+Added Component: Designator=C73(CERCAP 0402)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U14(TO-92)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C73-1
+Added Pin To Net: NetName=LSM_VCC Pin=C73-2
+Added Pin To Net: NetName=GND Pin=U14-1
+Added Pin To Net: NetName=LSM_VCC Pin=U14-3
+Change Net Name : Old Net Name=NetCPU1_7 New Net Name=SPI2_SCK
+Change Net Name : Old Net Name=NetCPU1_8 New Net Name=SPI2_MISO
+Change Net Name : Old Net Name=NetCPU1_10 New Net Name=SPI2_MOSI
+Change Net Name : Old Net Name=NetCPU1_11 New Net Name=\
+Change Net Name : Old Net Name=NetCPU1_12 New Net Name=I2C2_SDA
+Change Net Name : Old Net Name=NetCPU1_31 New Net Name=CPU_TX2
+Change Net Name : Old Net Name=NetCPU1_32 New Net Name=CPU_RX2
+Change Net Name : Old Net Name=NetCPU1_33 New Net Name=CPU_TX4
+Change Net Name : Old Net Name=NetCPU1_34 New Net Name=CPU_RX4
+Change Net Name : Old Net Name=NetCPU1_55 New Net Name=I2C4_SCL
+Change Net Name : Old Net Name=NetCPU1_56 New Net Name=I2C4_SDA
+Change Net Name : Old Net Name=NetCPU1_64 New Net Name=CPU_TX1
+Change Net Name : Old Net Name=NetCPU1_65 New Net Name=CPU_RX1
+Change Net Name : Old Net Name=NetCPU1_72 New Net Name=CAN_RX1
+Change Net Name : Old Net Name=NetCPU1_73 New Net Name=CAN_TX1
+Change Net Name : Old Net Name=NetCPU1_79 New Net Name=SPI1_MOSI
+Change Net Name : Old Net Name=NetCPU1_80 New Net Name=SPI1_SCK
+Change Net Name : Old Net Name=NetCPU1_81 New Net Name=SPI1_MISO
+Change Net Name : Old Net Name=NetCPU1_82 New Net Name=CAN_RX2
+Change Net Name : Old Net Name=NetCPU1_83 New Net Name=CAN_TX2
+Change Net Name : Old Net Name=NetCPU1_85 New Net Name=I2C1_SCL
+Change Net Name : Old Net Name=NetCPU1_86 New Net Name=I2C1_SDA
+Added Pin To Net: NetName=CPU_RX3 Pin=CPU1-52
+Added Net: Name=CPU_RX3
+Added Pin To Net: NetName=CPU_TX3 Pin=CPU1-51
+Added Net: Name=CPU_TX3
+Added Pin To Net: NetName=NetU14_2 Pin=U14-2
+Added Net: Name=NetU14_2
+Added Class: Name=DS18B20
+Added Room: Name=DS18B20

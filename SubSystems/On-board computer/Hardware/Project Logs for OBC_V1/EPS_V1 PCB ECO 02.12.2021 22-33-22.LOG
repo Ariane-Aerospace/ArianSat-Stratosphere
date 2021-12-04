@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=CPU1_U_CPU1 NewDesignator=CPU1
+Change Component Designator: OldDesignator=X5 NewDesignator=X1
+Change Net Name : Old Net Name=NetX5_1 New Net Name=NetX1_1
+Change Net Name : Old Net Name=NetX5_3 New Net Name=NetX1_3
+Change Net Name : Old Net Name=NetX5_5 New Net Name=NetX1_5
+Change Net Name : Old Net Name=NetX5_6 New Net Name=NetX1_6
+Change Net Name : Old Net Name=NetX5_32 New Net Name=NetX1_32
+Change Net Name : Old Net Name=NetX5_47 New Net Name=NetX1_47
+Change Net Name : Old Net Name=NetX5_50 New Net Name=NetX1_50
+Change Net Name : Old Net Name=NetX5_53 New Net Name=NetX1_53
+Change Net Name : Old Net Name=NetX5_55 New Net Name=NetX1_55
+Change Net Name : Old Net Name=NetX5_77 New Net Name=NetX1_77
+Change Net Name : Old Net Name=NetX5_79 New Net Name=NetX1_79
+Change Net Name : Old Net Name=NetX5_94 New Net Name=NetX1_94
+Change Net Name : Old Net Name=NetX5_97 New Net Name=NetX1_97
