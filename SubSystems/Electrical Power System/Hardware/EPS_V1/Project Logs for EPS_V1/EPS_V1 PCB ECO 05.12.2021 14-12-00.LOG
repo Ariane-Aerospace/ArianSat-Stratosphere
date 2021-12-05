@@ -1,0 +1,8 @@
+Change Component Comment : Designator=X8 Old Comment=0533980271  New Comment=0533980271
+Change Component Comment : Designator=X9 Old Comment=0533980271  New Comment=0533980271
+Change Component Comment : Designator=VT2 Old Comment=NTMFS5C670NLT1G  New Comment=NTMFS5C670NLT1G
+Change Component Comment : Designator=VT3 Old Comment=NTMFS5C670NLT1G  New Comment=NTMFS5C670NLT1G
+Change Component Comment : Designator=VT4 Old Comment=NTMFS5C670NLT1G  New Comment=NTMFS5C670NLT1G
+Change Component Comment : Designator=VT5 Old Comment=NTMFS5C670NLT1G  New Comment=NTMFS5C670NLT1G
+Added Pin To Net: NetName=RBF_GND Pin=X5-60
+Added Pin To Net: NetName=RBF Pin=X5-61
