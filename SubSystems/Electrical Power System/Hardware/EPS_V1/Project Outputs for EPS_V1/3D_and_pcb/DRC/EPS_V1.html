@@ -1,0 +1,407 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+            padding: 0.3em;
+        }
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+        body {
+			font-family : segoe ui;
+        }
+
+        td, th {
+            padding: 0.5em;
+			text-align : left;
+			width: 10em;
+        }
+        th {
+			background-color : #EEEEEE;
+
+        }
+        th.column1, td.column1 {
+            text-align: left;
+            width : auto;
+        }
+        table {
+            width : 100%;
+			font-size: 0.9em;
+        }
+        
+        .DRC_summary_header {                           
+            padding-bottom : 0.1em;
+            border : 0px solid black;                           
+            width: 100%;
+			align: left;
+        }
+
+        .DRC_summary_header_col1, 
+        .DRC_summary_header_col2, 
+        .DRC_summary_header_col3  {
+            color : black;
+            font-size:100%;
+                        padding : 0em;
+            padding-top : 0.2em;
+            padding-bottom 0.2em;
+            border : 0px solid black;
+            vertical-align: top;
+			text-align: left;
+        }
+        
+        .DRC_summary_header_col1 {                              
+			font-weight: bold;
+			width: 8em;
+        }
+
+        .DRC_summary_header_col2 {       
+			width: 0.1em;
+		
+        }
+
+        .DRC_summary_header_col3 {       
+			width : auto;
+        }
+
+        .header_holder  {
+        Width = 100%;
+        border = 0px solid green;
+        padding = 0;
+        }
+        
+        
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+            left:0;
+            top:0;
+			padding: 0em;
+            padding-top : 0.1em;            
+            border : 0px solid black;
+            width : 100%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .front_matter_column1 {
+            width : 8em;   
+			font-weight: bold;
+        }
+        
+        .front_matter_column2 {
+            width: 0.1em;
+        }
+
+        .front_matter_column3 {
+            width         : auto;  
+        }
+        
+        .total_column1, .total_column {
+            font-weight : bold;
+        }
+        .total_column1 {
+			text-align : left;
+        }
+        .warning, .error {
+            color : red;
+            font-weight : bold;
+        }
+        tr.onmouseout_odd {
+			background-color : #white;
+        }
+        tr.onmouseout_even { 
+			background-color : #FAFAFA;
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #21489e; 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+        "><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">06.12.2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">22:37:37</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc" class="file"><acronym title="C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc">C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">24</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">3</td></tr>
+</table>
+</td>
+</table><a name="IDMFXDLCVTVXOHHPX54G2N0RTHFPYDWO00CYD0M1CWO34Z5M2GRDRK"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDU4WTNHQGFQKAEUHTWKTGLUMSBBQQAVY3545MMCOYRYNQUCPSR1NP">Unplated multi-layer pad(s) detected</a></td>
+<td class="column2">24</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">24</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOGL2LCGTLVFELRGZG5YO2PVFFCUMUWOOXXP1RSPSDI1E34ZFP3UC">Clearance Constraint (Gap=0.089mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYK5DIC5HZCZZBN1L11URAWTDYHWC0SY5N5SLVKD2LYOHQKBQDIFI">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDE0JAXFIVEMJ2OSOQ0FMRIL0YQNXCCDGZZUD1ZTDLAGIPMXMYQ1EP">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5QGT20KXQMCIN3OUVZ2AM33PLPCKLJD34XLCJTLX131XLKU234YB">Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.127mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVIUDJ2KC2X0XDLM1ATBGD2HHHD5LMKIGOAD10EL3P5KEXUKNLOWH">Power Plane Connect Rule(Direct Connect )(Expansion=0.5mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGAIJTDMPTZA2FK4F0DAQXOEWCM31WKV3YORDLQBGY00UBKWI4HHE">Hole Size Constraint (Min=0.2mm) (Max=10mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUABUFLQ1JBU3N1TBAHMGGJJL1P1GJ2IWY43XVGFJXF4XJUJUD1VO">Hole To Hole Clearance (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYLTTWRFEJ4NMHRNDTIXSNART0NHP0LYVIKKU5JJ2PZJNBFYQMZUO">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXQYBFMAMIXSXEBDGYC3ZZKXVSCMDORSZT3ZED2D05HFK2MUYYBLK">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNY2XYFXS1FHQP41GPQCZZGKFMKXDOLK51KAHLCFKW3JLB1AXOA2O">Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">3</td>
+</tr>
+</table><br><a name="IDMSWOZFNYARIAJKXHKUC2DSMIBBDOE1012WQWRXJSA3OX5CFIOI1J"><h2>Warnings</h2></a><a name="IDU4WTNHQGFQKAEUHTWKTGLUMSBBQQAVY3545MMCOYRYNQUCPSR1NP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">Unplated multi-layer pad(s) detected</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5271.44mil|Location2.X=5381.676mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5271.44mil|Location2.X=5381.676mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT2-K(74.338mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT2_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5471.44mil|Location2.X=5581.676mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5471.44mil|Location2.X=5581.676mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT2-K(79.418mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT2_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5371.44mil|Location2.X=5481.676mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5371.44mil|Location2.X=5481.676mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True">Pad BAT2-K(76.878mm,12.4mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT2_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5371.44mil|Location2.X=5481.676mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5371.44mil|Location2.X=5481.676mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True">Pad BAT2-A(76.878mm,75.64mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net BAT_2S</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5471.44mil|Location2.X=5581.676mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5471.44mil|Location2.X=5581.676mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT2-A(79.418mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net BAT_2S</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5271.44mil|Location2.X=5381.676mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5271.44mil|Location2.X=5381.676mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT2-A(74.338mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net BAT_2S</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2965.609mil|Location2.X=3075.845mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2965.609mil|Location2.X=3075.845mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT4-K(15.769mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT4_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2765.609mil|Location2.X=2875.845mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2765.609mil|Location2.X=2875.845mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT4-K(10.689mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT4_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2865.609mil|Location2.X=2975.845mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2865.609mil|Location2.X=2975.845mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True">Pad BAT4-K(13.229mm,75.64mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT4_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2865.609mil|Location2.X=2975.845mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2865.609mil|Location2.X=2975.845mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True">Pad BAT4-A(13.229mm,12.4mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT4_A</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2765.609mil|Location2.X=2875.845mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2765.609mil|Location2.X=2875.845mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT4-A(10.689mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT4_A</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2965.609mil|Location2.X=3075.845mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2965.609mil|Location2.X=3075.845mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT4-A(15.769mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT4_A</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4436.163mil|Location2.X=4546.399mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4436.163mil|Location2.X=4546.399mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT1-A(53.121mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net BAT_2S</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4636.163mil|Location2.X=4746.399mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4636.163mil|Location2.X=4746.399mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT1-A(58.201mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net BAT_2S</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4536.163mil|Location2.X=4646.399mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4536.163mil|Location2.X=4646.399mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True">Pad BAT1-A(55.661mm,75.64mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net BAT_2S</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4536.163mil|Location2.X=4646.399mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4536.163mil|Location2.X=4646.399mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True">Pad BAT1-K(55.661mm,12.4mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT1_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4636.163mil|Location2.X=4746.399mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4636.163mil|Location2.X=4746.399mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT1-K(58.201mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT1_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4436.163mil|Location2.X=4546.399mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4436.163mil|Location2.X=4546.399mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT1-K(53.121mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT1_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3700.886mil|Location2.X=3811.122mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3700.886mil|Location2.X=3811.122mil|Location1.Y=1593.172mil|Location2.Y=1677.818mil|Absolute=True">Pad BAT3-A(34.445mm,12.4mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT3_A</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3600.886mil|Location2.X=3711.122mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3600.886mil|Location2.X=3711.122mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT3-A(31.905mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT3_A</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3800.886mil|Location2.X=3911.122mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3800.886mil|Location2.X=3911.122mil|Location1.Y=1893.172mil|Location2.Y=1977.818mil|Absolute=True">Pad BAT3-A(36.985mm,20.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT3_A</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3800.886mil|Location2.X=3911.122mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3800.886mil|Location2.X=3911.122mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT3-K(36.985mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT3_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3600.886mil|Location2.X=3711.122mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3600.886mil|Location2.X=3711.122mil|Location1.Y=3782.936mil|Location2.Y=3867.582mil|Absolute=True">Pad BAT3-K(31.905mm,68.02mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT3_K</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3700.886mil|Location2.X=3811.122mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3700.886mil|Location2.X=3811.122mil|Location1.Y=4082.936mil|Location2.Y=4167.582mil|Absolute=True">Pad BAT3-K(34.445mm,75.64mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=0mil|Location1.Y=0mil|Location2.Y=0mil|Absolute=True">Net NetBAT3_K</acronym></a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDOGL2LCGTLVFELRGZG5YO2PVFFCUMUWOOXXP1RSPSDI1E34ZFP3UC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.089mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4208.894mil|Location2.X=4216.391mil|Location1.Y=3536.64mil|Location2.Y=3544.066mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4208.894mil|Location2.X=4216.391mil|Location1.Y=3536.64mil|Location2.Y=3544.066mil|Absolute=True">Clearance Constraint: (0.081mm &lt; 0.089mm) Between Track (45.913mm,61.112mm)(46.447mm,60.578mm) on Bottom Layer And Via (45.822mm,60.63mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDYLTTWRFEJ4NMHRNDTIXSNART0NHP0LYVIKKU5JJ2PZJNBFYQMZUO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2663.25mil|Location2.X=2674.5mil|Location1.Y=1918.193mil|Location2.Y=1929.443mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2663.25mil|Location2.X=2674.5mil|Location1.Y=1918.193mil|Location2.Y=1929.443mil|Absolute=True">Silk To Silk Clearance Constraint: (0.178mm &lt; 0.254mm) Between Text "X15" (5.309mm,23.748mm) on Top Overlay And Track (4.216mm,19.507mm)(9.296mm,19.507mm) on Top Overlay Silk Text to Silk Clearance [0.178mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDXQYBFMAMIXSXEBDGYC3ZZKXVSCMDORSZT3ZED2D05HFK2MUYYBLK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2828.762mil|Location2.X=2892.89mil|Location1.Y=2667.184mil|Location2.Y=2769.366mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardware\EPS_V1\EPS_V1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2828.762mil|Location2.X=2892.89mil|Location1.Y=2667.184mil|Location2.Y=2769.366mil|Absolute=True">Net Antennae: Via (11.582mm,39.294mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
