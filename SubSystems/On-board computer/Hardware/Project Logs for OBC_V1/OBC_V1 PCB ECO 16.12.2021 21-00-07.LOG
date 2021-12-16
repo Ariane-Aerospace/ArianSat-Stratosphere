@@ -1,0 +1,7 @@
+Added Component: Designator=X?_MikroBus1(NGFF_B3_30MM)
+Added Component: Designator=X?_MikroBus2(NGFF_B3_30MM)
+Change Net Name : Old Net Name=NetCPU1_13 New Net Name=SPI3_MOSI
+Change Net Name : Old Net Name=NetCPU1_15 New Net Name=SPI3_SCK
+Change Net Name : Old Net Name=NetCPU1_16 New Net Name=SPI3_MISO
+Change Net Name : Old Net Name=NetCPU1_19 New Net Name=CPU_TX7
+Change Net Name : Old Net Name=NetCPU1_22 New Net Name=CPU_RX7

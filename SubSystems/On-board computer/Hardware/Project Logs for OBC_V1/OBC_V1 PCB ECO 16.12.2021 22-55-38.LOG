@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LSM_INT1 Pin=CPU1-17
+Removed Pin From Net: NetName=LSM_INT2 Pin=CPU1-18
+Added Pin To Net: NetName=LSM_INT2 Pin=CPU1-17
+Added Pin To Net: NetName=LSM_INT1 Pin=CPU1-18

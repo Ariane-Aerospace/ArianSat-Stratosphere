@@ -1,0 +1,38 @@
+Added Component: Designator=microBus1(MIKROBUS HOST)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purpose"; Value = "Module?"; VariantName = "[No Variations]"
+Added Component: Designator=microBus2(MIKROBUS HOST)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purpose"; Value = "Module?"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetmicroBus1_1 Pin=microBus1-1
+Added Pin To Net: NetName=NetmicroBus1_2 Pin=microBus1-2
+Added Pin To Net: NetName=NetmicroBus1_3 Pin=microBus1-3
+Added Pin To Net: NetName=NetCPU1_15 Pin=microBus1-4
+Added Pin To Net: NetName=NetCPU1_16 Pin=microBus1-5
+Added Pin To Net: NetName=NetCPU1_13 Pin=microBus1-6
+Added Pin To Net: NetName=NetmicroBus1_7 Pin=microBus1-7
+Added Pin To Net: NetName=GND Pin=microBus1-8
+Added Pin To Net: NetName=GND Pin=microBus1-9
+Added Pin To Net: NetName=NetmicroBus1_10 Pin=microBus1-10
+Added Pin To Net: NetName=I2C2_SDA Pin=microBus1-11
+Added Pin To Net: NetName=\ Pin=microBus1-12
+Added Pin To Net: NetName=NetmicroBus1_13 Pin=microBus1-13
+Added Pin To Net: NetName=NetmicroBus1_14 Pin=microBus1-14
+Added Pin To Net: NetName=NetmicroBus1_15 Pin=microBus1-15
+Added Pin To Net: NetName=NetmicroBus1_16 Pin=microBus1-16
+Added Pin To Net: NetName=NetmicroBus2_1 Pin=microBus2-1
+Added Pin To Net: NetName=NetmicroBus2_2 Pin=microBus2-2
+Added Pin To Net: NetName=NetmicroBus1_3 Pin=microBus2-3
+Added Pin To Net: NetName=NetCPU1_15 Pin=microBus2-4
+Added Pin To Net: NetName=NetCPU1_16 Pin=microBus2-5
+Added Pin To Net: NetName=NetCPU1_13 Pin=microBus2-6
+Added Pin To Net: NetName=NetmicroBus2_7 Pin=microBus2-7
+Added Pin To Net: NetName=GND Pin=microBus2-8
+Added Pin To Net: NetName=GND Pin=microBus2-9
+Added Pin To Net: NetName=NetmicroBus2_10 Pin=microBus2-10
+Added Pin To Net: NetName=I2C2_SDA Pin=microBus2-11
+Added Pin To Net: NetName=\ Pin=microBus2-12
+Added Pin To Net: NetName=NetmicroBus2_13 Pin=microBus2-13
+Added Pin To Net: NetName=NetmicroBus2_14 Pin=microBus2-14
+Added Pin To Net: NetName=NetmicroBus2_15 Pin=microBus2-15
+Added Pin To Net: NetName=NetmicroBus2_16 Pin=microBus2-16

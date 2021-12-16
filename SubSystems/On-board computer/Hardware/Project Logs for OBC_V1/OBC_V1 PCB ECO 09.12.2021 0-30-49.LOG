@@ -1,0 +1,31 @@
+Change Component Footprint: Designator=X2 Old Footprint=PBS-10-2.54 New Footprint=PicoBlade_12P
+Change Component Designator: OldDesignator=microBus1_U_MikroBus2 NewDesignator=microBus2
+Change component parameters: Designator = "X2" ("X3"); Footprint = "PBS-10-2.54"; UniqueID = "\APPZVFNQ\CUTYVVZP" ("\APPZVFNQ\CUTYVVZP")
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purpose"; Value = "Purpose?"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_1 New Net Name=NetmicroBus2_1
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_2 New Net Name=NetmicroBus2_2
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_3 New Net Name=NetmicroBus2_3
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_4 New Net Name=NetmicroBus2_4
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_5 New Net Name=NetmicroBus2_5
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_6 New Net Name=NetmicroBus2_6
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_7 New Net Name=NetmicroBus2_7
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_10 New Net Name=NetmicroBus2_10
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_11 New Net Name=NetmicroBus2_11
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_12 New Net Name=NetmicroBus2_12
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_13 New Net Name=NetmicroBus2_13
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_14 New Net Name=NetmicroBus2_14
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_15 New Net Name=NetmicroBus2_15
+Change Net Name : Old Net Name=NetmicroBus1_U_MikroBus2_16 New Net Name=NetmicroBus2_16
+Added Pin To Net: NetName=SWCLK_A Pin=X2-8
+Added Net: Name=SWCLK_A
+Added Pin To Net: NetName=SWCLK_B Pin=X2-11
+Added Net: Name=SWCLK_B
+Added Pin To Net: NetName=SWDIO_A Pin=X2-7
+Added Net: Name=SWDIO_A
+Added Pin To Net: NetName=SWDIO_B Pin=X2-10
+Added Net: Name=SWDIO_B
+Added Pin To Net: NetName=SWRST_A Pin=X2-9
+Added Net: Name=SWRST_A
+Added Pin To Net: NetName=SWRST_B Pin=X2-12
+Added Net: Name=SWRST_B

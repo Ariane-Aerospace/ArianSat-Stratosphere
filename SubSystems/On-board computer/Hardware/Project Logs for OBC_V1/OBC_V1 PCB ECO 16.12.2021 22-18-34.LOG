@@ -1,0 +1,14 @@
+Added Component: Designator=C11(CERCAP 0603)
+Add component (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R36(RES 0603)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=3V3_SYS Pin=C11-2
+Added Pin To Net: NetName=3V3_SYS Pin=R36-2
+Added Pin To Net: NetName=NetR36_1 Pin=R36-1
+Added Pin To Net: NetName=NetR36_1 Pin=U4-12
+Added Net: Name=NetR36_1

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=5V_CHRG Pin=X2-2
+Added Component: Designator=VD?(SOD-123)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Component: Designator=VD?(SOD-123)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetUSB1_A4B9 Pin=VD?-A
+Added Pin To Net: NetName=5V_CHRG Pin=VD?-C
+Added Pin To Net: NetName=5V_CHRG Pin=VD?-C
+Added Pin To Net: NetName=NetVD?_A Pin=VD?-A
+Added Pin To Net: NetName=NetVD?_A Pin=X2-2
+Added Net: Name=NetVD?_A

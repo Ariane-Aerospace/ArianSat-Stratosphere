@@ -1,0 +1,80 @@
+Removed Pin From Net: NetName=USB_D_P Pin=USB1-A6
+Removed Pin From Net: NetName=USB_D_N Pin=USB1-A7
+Removed Pin From Net: NetName=USB_D_P Pin=USB1-B6
+Removed Pin From Net: NetName=USB_D_N Pin=USB1-B7
+Added Component: Designator=microBus?(MIKROBUS HOST)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purpose"; Value = "Module?"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=X?(PBS-10-2.54)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purpose"; Value = "Service Panel"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=microBus?-8
+Added Pin To Net: NetName=GND Pin=microBus?-9
+Added Pin To Net: NetName=USB_D_N Pin=R?-1
+Added Pin To Net: NetName=USB_D_P Pin=R?-1
+Added Pin To Net: NetName=GND Pin=X?-1
+Change Net Name : Old Net Name=NetX1_47 New Net Name=5V_AUX1
+Change Net Name : Old Net Name=NetX1_50 New Net Name=3V3_AUX2
+Change Net Name : Old Net Name=NetX1_77 New Net Name=5V_MAIN
+Change Net Name : Old Net Name=NetX1_79 New Net Name=3V3_MAIN
+Change Net Name : Old Net Name=NetX1_94 New Net Name=VBACKUP
+Change Net Name : Old Net Name=NetX1_97 New Net Name=VBAT
+Added Pin To Net: NetName=5V_CHRG Pin=X1-32
+Added Pin To Net: NetName=5V_CHRG Pin=X?-2
+Added Net: Name=5V_CHRG
+Added Pin To Net: NetName=NetmicroBus?_1 Pin=microBus?-1
+Added Net: Name=NetmicroBus?_1
+Added Pin To Net: NetName=NetmicroBus?_2 Pin=microBus?-2
+Added Net: Name=NetmicroBus?_2
+Added Pin To Net: NetName=NetmicroBus?_3 Pin=microBus?-3
+Added Net: Name=NetmicroBus?_3
+Added Pin To Net: NetName=NetmicroBus?_4 Pin=microBus?-4
+Added Net: Name=NetmicroBus?_4
+Added Pin To Net: NetName=NetmicroBus?_5 Pin=microBus?-5
+Added Net: Name=NetmicroBus?_5
+Added Pin To Net: NetName=NetmicroBus?_6 Pin=microBus?-6
+Added Net: Name=NetmicroBus?_6
+Added Pin To Net: NetName=NetmicroBus?_7 Pin=microBus?-7
+Added Net: Name=NetmicroBus?_7
+Added Pin To Net: NetName=NetmicroBus?_10 Pin=microBus?-10
+Added Net: Name=NetmicroBus?_10
+Added Pin To Net: NetName=NetmicroBus?_11 Pin=microBus?-11
+Added Net: Name=NetmicroBus?_11
+Added Pin To Net: NetName=NetmicroBus?_12 Pin=microBus?-12
+Added Net: Name=NetmicroBus?_12
+Added Pin To Net: NetName=NetmicroBus?_13 Pin=microBus?-13
+Added Net: Name=NetmicroBus?_13
+Added Pin To Net: NetName=NetmicroBus?_14 Pin=microBus?-14
+Added Net: Name=NetmicroBus?_14
+Added Pin To Net: NetName=NetmicroBus?_15 Pin=microBus?-15
+Added Net: Name=NetmicroBus?_15
+Added Pin To Net: NetName=NetmicroBus?_16 Pin=microBus?-16
+Added Net: Name=NetmicroBus?_16
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=X?-3
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=USB1-A6
+Added Pin To Net: NetName=NetR?_2 Pin=USB1-B6
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=RBF_GND Pin=X1-60
+Added Pin To Net: NetName=RBF_GND Pin=X?-5
+Added Net: Name=RBF_GND
+Added Pin To Net: NetName=RBF Pin=X1-61
+Added Pin To Net: NetName=RBF Pin=X?-6
+Added Net: Name=RBF
+Added Class: Name=U_MikroBus
+Added Room: Name=DS18B20
+Added Room: Name=U_MikroBus

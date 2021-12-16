@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=5V_CHARGE Pin=USB1-A4B9
+Removed Pin From Net: NetName=5V_CHARGE Pin=USB1-B4A9
+Added Component: Designator=VD9(SOD-123)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V_CHARGE Pin=VD9-C
+Added Pin To Net: NetName=NetUSB1_A4B9 Pin=USB1-A4B9
+Added Pin To Net: NetName=NetUSB1_A4B9 Pin=USB1-B4A9
+Added Pin To Net: NetName=NetUSB1_A4B9 Pin=VD9-A
+Added Net: Name=NetUSB1_A4B9

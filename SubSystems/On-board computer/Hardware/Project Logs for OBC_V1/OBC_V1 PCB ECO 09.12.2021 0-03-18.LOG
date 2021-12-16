@@ -1,0 +1,36 @@
+Change Component Designator: OldDesignator=C73 NewDesignator=C13
+Change Component Designator: OldDesignator=microBus? NewDesignator=microBus1
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=R? NewDesignator=R30
+Change Component Designator: OldDesignator=R? NewDesignator=R31
+Change Component Designator: OldDesignator=U14 NewDesignator=U5
+Change Component Designator: OldDesignator=X? NewDesignator=X2
+Change Net Name : Old Net Name=NetmicroBus?_1 New Net Name=NetmicroBus1_1
+Change Net Name : Old Net Name=NetmicroBus?_2 New Net Name=NetmicroBus1_2
+Change Net Name : Old Net Name=NetmicroBus?_3 New Net Name=NetmicroBus1_3
+Change Net Name : Old Net Name=NetmicroBus?_4 New Net Name=NetmicroBus1_4
+Change Net Name : Old Net Name=NetmicroBus?_5 New Net Name=NetmicroBus1_5
+Change Net Name : Old Net Name=NetmicroBus?_6 New Net Name=NetmicroBus1_6
+Change Net Name : Old Net Name=NetmicroBus?_7 New Net Name=NetmicroBus1_7
+Change Net Name : Old Net Name=NetmicroBus?_10 New Net Name=NetmicroBus1_10
+Change Net Name : Old Net Name=NetmicroBus?_11 New Net Name=NetmicroBus1_11
+Change Net Name : Old Net Name=NetmicroBus?_12 New Net Name=NetmicroBus1_12
+Change Net Name : Old Net Name=NetmicroBus?_13 New Net Name=NetmicroBus1_13
+Change Net Name : Old Net Name=NetmicroBus?_14 New Net Name=NetmicroBus1_14
+Change Net Name : Old Net Name=NetmicroBus?_15 New Net Name=NetmicroBus1_15
+Change Net Name : Old Net Name=NetmicroBus?_16 New Net Name=NetmicroBus1_16
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR31_2
+Change Net Name : Old Net Name=NetU14_2 New Net Name=NetU5_2
+Added Pin To Net: NetName=NetR28_2 Pin=R28-2
+Added Net: Name=NetR28_2
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_1 Pin=X2-4
+Added Net: Name=NetR29_1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Net: Name=NetR29_2
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=USB1-A7
+Added Pin To Net: NetName=NetR30_2 Pin=USB1-B7
+Added Net: Name=NetR30_2

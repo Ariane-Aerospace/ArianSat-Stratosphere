@@ -1,0 +1,6 @@
+Change Component Comment : Designator=R? Old Comment=RES 0402 0 New Comment=RES 0603 0
+Added Pin To Net: NetName=NetCPU1_24 Pin=R26-1
+Added Pin To Net: NetName=NetCPU1_23 Pin=R36-1
+Added Pin To Net: NetName=NetCPU1_21 Pin=U3-7
+Added Pin To Net: NetName=NetCPU1_24 Pin=U3-10
+Added Pin To Net: NetName=NetCPU1_23 Pin=U4-12

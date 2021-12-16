@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=C1 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C2 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C3 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Footprint: Designator=C4 Old Footprint=CERCAP 0402 New Footprint=CERCAP 0603
+Change Component Comment : Designator=C3 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 4.7uF * X7R
+Change Component Comment : Designator=C4 Old Comment=CERCAP 0402 0.1uF * X7R New Comment=CERCAP 0603 4.7uF * X7R
+Change Component Comment : Designator=C1 Old Comment=CERCAP 0402 4.7uF * X7R New Comment=CERCAP 0603 4.7uF * X7R
+Change Component Comment : Designator=C2 Old Comment=CERCAP 0402 4.7uF * X7R New Comment=CERCAP 0603 4.7uF * X7R
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CERCAP 0402"; UniqueID = "\BAHMUACI\TISECRWX" ("\BAHMUACI\TISECRWX")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CERCAP 0402"; UniqueID = "\BAHMUACI\TMBDZBDK" ("\BAHMUACI\TMBDZBDK")
+Change component parameters (AddParameter): Name = "Diel"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = ""; VariantName = "[No Variations]"

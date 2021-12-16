@@ -2,16 +2,33 @@
 FileName = EPS_V1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Board Shape
-      File : EPS_V1.GM2
+Generating : Int1 (GND)
+      File : EPS_V1.GP1
+
+    Adding Layer      : Int1 (GND)
 
     Adding Layer      : Board Shape
 
-    Adding Layer      : Board Shape
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D10
+    D143
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+    D187
 *************************************************************
 
 *************************************************************
@@ -121,10 +138,29 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Int1 (GND)
-      File : EPS_V1.GP1
+Generating : Bottom Overlay
+      File : EPS_V1.GBO
 
-    Adding Layer      : Int1 (GND)
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : EPS_V1.GBL
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Board Shape
 
@@ -133,20 +169,110 @@ Generating : Int1 (GND)
 
 Used DCodes :
     D10
-    D144
-    D174
-    D175
-    D176
-    D177
-    D178
-    D179
-    D180
-    D181
-    D182
-    D183
-    D184
-    D185
-    D186
+    D11
+    D13
+    D79
+    D87
+    D88
+    D89
+    D91
+    D92
+    D95
+    D96
+    D107
+    D108
+    D118
+    D119
+    D143
+    D145
+    D146
+    D147
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : EPS_V1.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D20
+    D21
+    D22
+    D23
+    D25
+    D26
+    D29
+    D30
+    D41
+    D42
+    D52
+    D53
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D194
+    D195
+*************************************************************
+
+*************************************************************
+Generating : Int2 (PWR)
+      File : EPS_V1.G1
+
+    Adding Layer      : Int2 (PWR)
+
+    Adding Layer      : Board Shape
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D79
+    D143
+    D145
+    D147
+    D150
+    D161
+    D168
+    D172
 *************************************************************
 
 *************************************************************
@@ -234,122 +360,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : EPS_V1.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Board Shape
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D20
-    D21
-    D22
-    D24
-    D25
-    D28
-    D29
-    D41
-    D42
-    D52
-    D53
-    D55
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D193
-    D194
-*************************************************************
-
-*************************************************************
-Generating : Int2 (PWR)
-      File : EPS_V1.G1
-
-    Adding Layer      : Int2 (PWR)
-
-    Adding Layer      : Board Shape
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D79
-    D144
-    D146
-    D148
-    D151
-    D168
-    D172
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : EPS_V1.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Board Shape
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D13
-    D79
-    D87
-    D88
-    D90
-    D91
-    D94
-    D95
-    D107
-    D108
-    D118
-    D119
-    D121
-    D144
-    D146
-    D147
-    D148
-    D162
-    D163
-    D164
-    D165
-    D166
-    D167
-    D168
-    D169
-    D170
-    D171
-    D172
-    D173
-    D187
-    D188
-    D189
-    D190
-    D191
-    D192
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
       File : EPS_V1.GTO
 
@@ -372,21 +382,15 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : EPS_V1.GBO
+Generating : Board Shape
+      File : EPS_V1.GM2
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Board Shape
 
     Adding Layer      : Board Shape
 
 
 Used DCodes :
     D10
-    D11
-    D12
-    D15
-    D16
-    D17
-    D18
 *************************************************************
 

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=5V_CHRG Pin=X1-32
+Removed Pin From Net: NetName=5V_CHRG Pin=X2-2
+Added Pin To Net: NetName=5V_CHRG Pin=X1-77
+Added Pin To Net: NetName=5V_CHRG Pin=X1-78
+Change Net Name : Old Net Name=5V_CHRG New Net Name=5V_MAIN
+Added Pin To Net: NetName=5V_CHRG Pin=X1-32
+Added Pin To Net: NetName=5V_CHRG Pin=X2-2
+Added Net: Name=5V_CHRG

@@ -1,0 +1,54 @@
+Added Pin To Net: NetName=NetCPU1_15 Pin=microBus1-4
+Added Pin To Net: NetName=NetCPU1_16 Pin=microBus1-5
+Added Pin To Net: NetName=NetCPU1_13 Pin=microBus1-6
+Added Pin To Net: NetName=I2C2_SDA Pin=microBus1-11
+Added Pin To Net: NetName=\ Pin=microBus1-12
+Added Pin To Net: NetName=NetmicroBus1_3 Pin=microBus2-3
+Added Pin To Net: NetName=NetCPU1_15 Pin=microBus2-4
+Added Pin To Net: NetName=NetCPU1_16 Pin=microBus2-5
+Added Pin To Net: NetName=NetCPU1_13 Pin=microBus2-6
+Added Pin To Net: NetName=I2C2_SDA Pin=microBus2-11
+Added Pin To Net: NetName=\ Pin=microBus2-12
+Change Net Name : Old Net Name=LSM_VCC New Net Name=3V3_SYS
+Added Pin To Net: NetName=NetCPU1_9 Pin=CPU1-9
+Added Net: Name=NetCPU1_9
+Added Pin To Net: NetName=NetCPU1_14 Pin=CPU1-14
+Added Net: Name=NetCPU1_14
+Added Pin To Net: NetName=NetCPU1_17 Pin=CPU1-17
+Added Net: Name=NetCPU1_17
+Added Pin To Net: NetName=NetCPU1_18 Pin=CPU1-18
+Added Net: Name=NetCPU1_18
+Added Pin To Net: NetName=NetCPU1_20 Pin=CPU1-20
+Added Net: Name=NetCPU1_20
+Added Pin To Net: NetName=NetCPU1_21 Pin=CPU1-21
+Added Net: Name=NetCPU1_21
+Added Pin To Net: NetName=NetCPU1_23 Pin=CPU1-23
+Added Net: Name=NetCPU1_23
+Added Pin To Net: NetName=NetCPU1_24 Pin=CPU1-24
+Added Net: Name=NetCPU1_24
+Added Pin To Net: NetName=NetCPU1_35 Pin=CPU1-35
+Added Net: Name=NetCPU1_35
+Added Pin To Net: NetName=NetCPU1_36 Pin=CPU1-36
+Added Net: Name=NetCPU1_36
+Added Pin To Net: NetName=NetCPU1_37 Pin=CPU1-37
+Added Net: Name=NetCPU1_37
+Added Pin To Net: NetName=NetCPU1_38 Pin=CPU1-38
+Added Net: Name=NetCPU1_38
+Added Pin To Net: NetName=NetCPU1_40 Pin=CPU1-40
+Added Net: Name=NetCPU1_40
+Added Pin To Net: NetName=NetCPU1_43 Pin=CPU1-43
+Added Net: Name=NetCPU1_43
+Added Pin To Net: NetName=NetCPU1_57 Pin=CPU1-57
+Added Net: Name=NetCPU1_57
+Added Pin To Net: NetName=NetCPU1_58 Pin=CPU1-58
+Added Net: Name=NetCPU1_58
+Added Pin To Net: NetName=NetCPU1_63 Pin=CPU1-63
+Added Net: Name=NetCPU1_63
+Added Pin To Net: NetName=NetCPU1_68 Pin=CPU1-68
+Added Net: Name=NetCPU1_68
+Added Pin To Net: NetName=NetCPU1_76 Pin=CPU1-76
+Added Net: Name=NetCPU1_76
+Added Pin To Net: NetName=NetCPU1_77 Pin=CPU1-77
+Added Net: Name=NetCPU1_77
+Added Pin To Net: NetName=NetCPU1_78 Pin=CPU1-78
+Added Net: Name=NetCPU1_78

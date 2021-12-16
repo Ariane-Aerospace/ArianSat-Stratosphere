@@ -1,0 +1,16 @@
+Added Component: Designator=R?(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=USB_D_N Pin=R28-2
+Added Pin To Net: NetName=USB_D_P Pin=R29-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetC5_2 Pin=X1-32
+Added Pin To Net: NetName=3V3_SYS Pin=X1-79
+Added Pin To Net: NetName=3V3_SYS Pin=X1-80
+Added Pin To Net: NetName=NetC5_2 Pin=X2-2
+Change Net Name : Old Net Name=3V3_SYS New Net Name=3V3_MAIN
+Change Net Name : Old Net Name=NetC5_2 New Net Name=5V_CHRG
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U1-8
+Added Pin To Net: NetName=NetR?_1 Pin=U2-8
+Added Net: Name=NetR?_1

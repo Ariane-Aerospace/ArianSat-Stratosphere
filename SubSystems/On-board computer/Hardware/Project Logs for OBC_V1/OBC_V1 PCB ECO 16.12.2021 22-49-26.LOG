@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetCPU1_20 New Net Name=LSM_CS
+Change Net Name : Old Net Name=NetCPU1_21 New Net Name=LIS_INT1
+Change Net Name : Old Net Name=NetCPU1_23 New Net Name=DS18_DQ
+Change Net Name : Old Net Name=NetU3_8 New Net Name=LIS_DRDY
+Change Net Name : Old Net Name=NetU4_4 New Net Name=LSM_INT1
+Change Net Name : Old Net Name=NetU4_9 New Net Name=LSM_INT2

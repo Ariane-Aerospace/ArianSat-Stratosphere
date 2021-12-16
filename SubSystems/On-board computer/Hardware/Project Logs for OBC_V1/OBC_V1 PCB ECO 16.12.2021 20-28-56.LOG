@@ -1,0 +1,3 @@
+Change Net Name : Old Net Name=SPI2_MISO New Net Name=SPI2_MOSI
+Change Net Name : Old Net Name=SPI2_MOSI New Net Name=SPI2_SCK
+Change Net Name : Old Net Name=SPI2_SCK New Net Name=SPI2_MISO
