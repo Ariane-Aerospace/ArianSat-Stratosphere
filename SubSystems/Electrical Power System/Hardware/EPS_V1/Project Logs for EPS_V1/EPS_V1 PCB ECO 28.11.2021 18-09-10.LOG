@@ -1,8 +1,0 @@
-Added Pin To Net: NetName=NetTP32_1 Pin=TP32-1
-Added Pin To Net: NetName=NetTP32_1 Pin=U10-2
-Added Pin To Net: NetName=NetTP32_1 Pin=X5-11
-Added Net: Name=NetTP32_1
-Added Pin To Net: NetName=NetTP33_1 Pin=TP33-1
-Added Pin To Net: NetName=NetTP33_1 Pin=U10-3
-Added Pin To Net: NetName=NetTP33_1 Pin=X5-13
-Added Net: Name=NetTP33_1

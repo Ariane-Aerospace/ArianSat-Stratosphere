@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=FREE1 Pin=TP28-1
-Removed Pin From Net: NetName=HEAT4 Pin=TP29-1
-Removed Pin From Net: NetName=FREE1 Pin=U10-25
-Removed Pin From Net: NetName=HEAT4 Pin=U10-26
-Added Pin To Net: NetName=HEAT4 Pin=TP28-1
-Added Pin To Net: NetName=FREE1 Pin=TP29-1
-Added Pin To Net: NetName=HEAT4 Pin=U10-25
-Added Pin To Net: NetName=FREE1 Pin=U10-26

@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=NetR123_1 Pin=VD6-C
-Removed Pin From Net: NetName=NetR122_1 Pin=VD7-C
-Removed Pin From Net: NetName=NetR121_1 Pin=VD8-C
-Added Pin To Net: NetName=EPS_RST Pin=VD6-C
-Added Pin To Net: NetName=SWDIO Pin=VD7-C
-Added Pin To Net: NetName=SWCLK Pin=VD8-C

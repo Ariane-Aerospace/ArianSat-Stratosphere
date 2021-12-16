@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=DS18_DQ Pin=TP22-1
-Removed Pin From Net: NetName=5V_EN Pin=TP27-1
-Removed Pin From Net: NetName=5V_EN Pin=U10-21
-Removed Pin From Net: NetName=DS18_DQ Pin=U10-41
-Added Pin To Net: NetName=5V_EN Pin=TP22-1
-Added Pin To Net: NetName=DS18_DQ Pin=TP27-1
-Added Pin To Net: NetName=DS18_DQ Pin=U10-21
-Added Pin To Net: NetName=5V_EN Pin=U10-41

@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=I_VBAT Pin=TP9-1
-Removed Pin From Net: NetName=3V3_I Pin=TP11-1
-Removed Pin From Net: NetName=I_VBAT Pin=U10-16
-Removed Pin From Net: NetName=3V3_I Pin=U10-17
-Added Pin To Net: NetName=3V3_I Pin=TP9-1
-Added Pin To Net: NetName=I_VBAT Pin=TP11-1
-Added Pin To Net: NetName=3V3_I Pin=U10-16
-Added Pin To Net: NetName=I_VBAT Pin=U10-17

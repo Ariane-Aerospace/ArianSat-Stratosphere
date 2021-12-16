@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=I2C1_SCL Pin=*1-1
-Removed Pin From Net: NetName=PWR_RX1 Pin=*2-1
-Removed Pin From Net: NetName=USB_D_N Pin=*3-1
-Removed Pin From Net: NetName=USB_D_P Pin=*4-1
-Removed Pin From Net: NetName=PWR_TX1 Pin=*-1
-Added Pin To Net: NetName=USB_D_P Pin=*-1

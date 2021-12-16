@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=HEAT2 Pin=TP20-1
-Removed Pin From Net: NetName=HEAT3 Pin=TP27-1
-Removed Pin From Net: NetName=HEAT2 Pin=U10-20
-Removed Pin From Net: NetName=HEAT3 Pin=U10-21
-Added Pin To Net: NetName=HEAT3 Pin=TP20-1
-Added Pin To Net: NetName=HEAT2 Pin=TP27-1
-Added Pin To Net: NetName=HEAT3 Pin=U10-20
-Added Pin To Net: NetName=HEAT2 Pin=U10-21

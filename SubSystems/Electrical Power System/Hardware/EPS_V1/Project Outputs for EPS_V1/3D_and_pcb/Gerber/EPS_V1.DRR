@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: EPS_V1.PcbDoc   08.12.2021  21:52:12
+NCDrill File Report For: EPS_V1.PcbDoc   17.12.2021  0:38:49
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ ASCII SlotHoles File : EPS_V1-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.2mm (8mil)                                              Round             486       PTH        1444.80mm (56.88inch)
+T1      0.2mm (8mil)                                              Round             490       PTH        1472.82mm (57.98inch)
 T2      0.45mm (18mil)                                            Slot              2         PTH        21.32mm (0.84inch)
 T3      0.6mm (24mil)                                             Round             6         PTH        58.80mm (2.31inch)
 T4      0.65mm (26mil)                                            Slot              4         PTH        37.92mm (1.49inch)
@@ -21,6 +21,6 @@ T10     0.7mm (28mil)                                             Slot          
 T11     1.152mm (45mil)                                           Round             2         NPTH       121.02mm (4.76inch)
 T12     2mm (79mil)                                               Round             4         NPTH       194.50mm (7.66inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              650
+Totals                                                                              654
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00

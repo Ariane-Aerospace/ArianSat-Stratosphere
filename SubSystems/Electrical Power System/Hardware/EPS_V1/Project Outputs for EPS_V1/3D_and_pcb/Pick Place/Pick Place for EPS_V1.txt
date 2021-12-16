@@ -4,9 +4,9 @@ C:\!MEGA\!myFiles\ArianSat-Stratosphere\SubSystems\Electrical Power System\Hardw
 ========================================================================================================================
 File Design Information:
 
-Date:       08.12.21
-Time:       21:57
-Revision:   3ab7c01bde7538eaebc878f58e7deedc58f4c754
+Date:       17.12.21
+Time:       00:38
+Revision:   ca79329ea109ecbc3f3e10f859dba2f2cb278449
 Variant:    No variations
 Units used: mm
 
@@ -117,6 +117,7 @@ L1         50.6984      54.8640      TopLayer    0
 L2         37.9167      52.7493      TopLayer    0        
 L3         76.6462      28.2422      TopLayer    90       
 L4         80.2702      55.8546      TopLayer    90       
+LED1       85.5472      56.5770      TopLayer    90       
 R1         18.9992      18.4508      TopLayer    0        
 R2         19.6342      16.1394      TopLayer    90       
 R3         27.1018      18.3746      TopLayer    90       
@@ -244,6 +245,11 @@ R124       25.7810      74.0410      BottomLayer 90
 R125       79.9846      42.0624      TopLayer    180      
 R126       82.1690      42.0624      TopLayer    180      
 R127       77.2414      41.9100      TopLayer    180      
+R128       12.8132      4.0045       TopLayer    180      
+R129       2.2352       89.9414      TopLayer    90       
+R130       82.8814      85.2841      TopLayer    90       
+R131       80.1741      9.3666       TopLayer    315      
+R132       71.7039      44.5376      TopLayer    180      
 U1         24.1838      16.6676      TopLayer    0        
 U2         46.9930      18.4456      TopLayer    0        
 U3         59.2187      23.7998      TopLayer    90       
@@ -278,6 +284,7 @@ VD5        12.0142      40.7416      TopLayer    0
 VD6        13.3401      38.0256      TopLayer    270      
 VD7        20.7010      37.3380      TopLayer    270      
 VD8        18.0092      33.9492      TopLayer    90       
+VD9        79.6544      75.3110      TopLayer    90       
 VT1        42.1894      53.6448      TopLayer    180      
 VT2        6.8355       52.4069      TopLayer    270      
 VT3        6.8355       48.1505      TopLayer    90       

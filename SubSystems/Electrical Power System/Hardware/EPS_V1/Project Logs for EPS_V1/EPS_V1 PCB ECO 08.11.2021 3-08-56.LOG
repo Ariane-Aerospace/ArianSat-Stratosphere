@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=U15-1
-Removed Pin From Net: NetName=3V3_SYS Pin=U15-2
-Removed Pin From Net: NetName=BAT_2S Pin=U15-3
-Removed Pin From Net: NetName=GND Pin=U19-1
-Removed Pin From Net: NetName=5V_SYS Pin=U19-2
-Removed Pin From Net: NetName=BAT_2S Pin=U19-3
-Added Member To Class: ClassName=V_SYS_Regulator Member=Component C72 (C65) CERCAP 0402 4.7uF * X7R
-Added Room: Name=V_SYS_Regulator

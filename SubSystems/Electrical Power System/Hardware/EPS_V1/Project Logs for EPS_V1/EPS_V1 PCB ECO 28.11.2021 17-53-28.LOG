@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=MPPT_I Pin=TP7-1
-Removed Pin From Net: NetName=5V_I Pin=TP18-1
-Removed Pin From Net: NetName=MPPT_I Pin=U10-15
-Removed Pin From Net: NetName=5V_I Pin=U10-18
-Added Pin To Net: NetName=5V_I Pin=TP7-1
-Added Pin To Net: NetName=MPPT_I Pin=TP18-1
-Added Pin To Net: NetName=5V_I Pin=U10-15
-Added Pin To Net: NetName=MPPT_I Pin=U10-18

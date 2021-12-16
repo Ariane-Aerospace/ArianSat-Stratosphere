@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=HEAT1 Pin=TP30-1
-Removed Pin From Net: NetName=VBAT_EN Pin=TP34-1
-Removed Pin From Net: NetName=VBAT_EN Pin=U10-4
-Removed Pin From Net: NetName=HEAT1 Pin=U10-27
-Added Pin To Net: NetName=VBAT_EN Pin=TP30-1
-Added Pin To Net: NetName=HEAT1 Pin=TP34-1
-Added Pin To Net: NetName=HEAT1 Pin=U10-4
-Added Pin To Net: NetName=VBAT_EN Pin=U10-27
