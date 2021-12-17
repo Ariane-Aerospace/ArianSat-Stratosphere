@@ -1,0 +1,107 @@
+Removed Pin From Net: NetName=NetR48_1 Pin=X5-6
+Removed Pin From Net: NetName=SPI1_MOSI Pin=X5-20
+Removed Pin From Net: NetName=SPI1_SCK Pin=X5-22
+Removed Pin From Net: NetName=SPI1_MISO Pin=X5-24
+Removed Pin From Net: NetName=NetX3_26 Pin=X5-26
+Removed Pin From Net: NetName=NetX3_28 Pin=X5-28
+Removed Pin From Net: NetName=I2C2_SCL Pin=X5-40
+Removed Pin From Net: NetName=I2C2_SDA Pin=X5-42
+Removed Pin From Net: NetName=NetR49_2 Pin=X5-62
+Removed Pin From Net: NetName=NetR50_2 Pin=X5-64
+Removed Pin From Net: NetName=NetR48_1 Pin=X5-67
+Removed Pin From Net: NetName=3V3_MAIN Pin=X6-2
+Removed Pin From Net: NetName=GND Pin=X6-3
+Removed Pin From Net: NetName=3V3_MAIN Pin=X6-4
+Removed Pin From Net: NetName=GND Pin=X6-5
+Removed Pin From Net: NetName=GND Pin=X6-11
+Removed Pin From Net: NetName=GND Pin=X6-27
+Removed Pin From Net: NetName=GND Pin=X6-33
+Removed Pin From Net: NetName=GND Pin=X6-39
+Removed Pin From Net: NetName=GND Pin=X6-45
+Removed Pin From Net: NetName=GND Pin=X6-51
+Removed Pin From Net: NetName=GND Pin=X6-57
+Removed Pin From Net: NetName=3V3_MAIN Pin=X6-70
+Removed Pin From Net: NetName=GND Pin=X6-71
+Removed Pin From Net: NetName=3V3_MAIN Pin=X6-72
+Removed Pin From Net: NetName=GND Pin=X6-73
+Removed Pin From Net: NetName=3V3_MAIN Pin=X6-74
+Change Component Footprint: Designator=X3 Old Footprint=NGFF_B3_30MM New Footprint=NGFF_B3_42MM
+Change Component Footprint: Designator=X4 Old Footprint=NGFF_B3_30MM New Footprint=NGFF_B3_42MM
+Change Component Comment : Designator=X3 Old Comment=NGFF_B New Comment=2199230-3
+Change Component Comment : Designator=X4 Old Comment=NGFF_B New Comment=2199230-3
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Change Component Designator: OldDesignator=C12 NewDesignator=C11
+Change Component Designator: OldDesignator=R13 NewDesignator=R27
+Change Component Designator: OldDesignator=R14 NewDesignator=R28
+Change Component Designator: OldDesignator=R15 NewDesignator=R29
+Change Component Designator: OldDesignator=R16 NewDesignator=R30
+Change Component Designator: OldDesignator=R17 NewDesignator=R31
+Change Component Designator: OldDesignator=R18 NewDesignator=R32
+Change Component Designator: OldDesignator=R19 NewDesignator=R33
+Change Component Designator: OldDesignator=R20 NewDesignator=R34
+Change Component Designator: OldDesignator=R21 NewDesignator=R35
+Change Component Designator: OldDesignator=R22 NewDesignator=R36
+Change Component Designator: OldDesignator=R23 NewDesignator=R40
+Change Component Designator: OldDesignator=R24 NewDesignator=R43
+Change Component Designator: OldDesignator=R25 NewDesignator=R44
+Change Component Designator: OldDesignator=R26 NewDesignator=R37
+Change Component Designator: OldDesignator=R27 NewDesignator=R38
+Change Component Designator: OldDesignator=R28 NewDesignator=R16
+Change Component Designator: OldDesignator=R29 NewDesignator=R17
+Change Component Designator: OldDesignator=R30 NewDesignator=R41
+Change Component Designator: OldDesignator=R31 NewDesignator=R42
+Change Component Designator: OldDesignator=R32 NewDesignator=R19
+Change Component Designator: OldDesignator=R33 NewDesignator=R20
+Change Component Designator: OldDesignator=R34 NewDesignator=R21
+Change Component Designator: OldDesignator=R35 NewDesignator=R22
+Change Component Designator: OldDesignator=R36 NewDesignator=R39
+Change Component Designator: OldDesignator=R37 NewDesignator=R13
+Change Component Designator: OldDesignator=R38 NewDesignator=R14
+Change Component Designator: OldDesignator=R39 NewDesignator=R15
+Change Component Designator: OldDesignator=R40 NewDesignator=R18
+Change Component Designator: OldDesignator=R41 NewDesignator=R23
+Change Component Designator: OldDesignator=R42 NewDesignator=R24
+Change Component Designator: OldDesignator=R43 NewDesignator=R25
+Change Component Designator: OldDesignator=R44 NewDesignator=R26
+Added Pin To Net: NetName=3V3_MAIN Pin=X3-2
+Added Pin To Net: NetName=GND Pin=X3-3
+Added Pin To Net: NetName=3V3_MAIN Pin=X3-4
+Added Pin To Net: NetName=GND Pin=X3-5
+Added Pin To Net: NetName=GND Pin=X3-11
+Added Pin To Net: NetName=GND Pin=X3-27
+Added Pin To Net: NetName=GND Pin=X3-33
+Added Pin To Net: NetName=GND Pin=X3-39
+Added Pin To Net: NetName=GND Pin=X3-45
+Added Pin To Net: NetName=GND Pin=X3-51
+Added Pin To Net: NetName=GND Pin=X3-57
+Added Pin To Net: NetName=3V3_MAIN Pin=X3-70
+Added Pin To Net: NetName=GND Pin=X3-71
+Added Pin To Net: NetName=3V3_MAIN Pin=X3-72
+Added Pin To Net: NetName=GND Pin=X3-73
+Added Pin To Net: NetName=3V3_MAIN Pin=X3-74
+Added Pin To Net: NetName=NetR48_1 Pin=X4-6
+Added Pin To Net: NetName=SPI1_MOSI Pin=X4-20
+Added Pin To Net: NetName=SPI1_SCK Pin=X4-22
+Added Pin To Net: NetName=SPI1_MISO Pin=X4-24
+Added Pin To Net: NetName=NetX3_26 Pin=X4-26
+Added Pin To Net: NetName=NetX3_28 Pin=X4-28
+Added Pin To Net: NetName=I2C2_SCL Pin=X4-40
+Added Pin To Net: NetName=I2C2_SDA Pin=X4-42
+Added Pin To Net: NetName=NetR49_2 Pin=X4-62
+Added Pin To Net: NetName=NetR50_2 Pin=X4-64
+Added Pin To Net: NetName=NetR48_1 Pin=X4-67
+Change Net Name : Old Net Name=NetR14_2 New Net Name=NetR28_2
+Change Net Name : Old Net Name=NetR15_2 New Net Name=NetR29_2
+Change Net Name : Old Net Name=NetR19_2 New Net Name=NetR33_2
+Change Net Name : Old Net Name=NetR20_2 New Net Name=NetR34_2
+Change Net Name : Old Net Name=NetR23_2 New Net Name=NetR40_2
+Change Net Name : Old Net Name=NetR24_2 New Net Name=NetR43_2
+Change Net Name : Old Net Name=NetR25_2 New Net Name=NetR44_2
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR17_1
+Change Net Name : Old Net Name=NetR30_2 New Net Name=NetR41_2
+Change Net Name : Old Net Name=NetR31_2 New Net Name=NetR42_2
+Change Net Name : Old Net Name=NetR37_1 New Net Name=NetR13_1
+Change Net Name : Old Net Name=NetR38_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR39_1 New Net Name=NetR15_1
+Change Net Name : Old Net Name=NetR40_1 New Net Name=NetR18_1

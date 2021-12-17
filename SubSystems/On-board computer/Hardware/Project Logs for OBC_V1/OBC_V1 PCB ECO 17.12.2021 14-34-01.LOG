@@ -1,0 +1,95 @@
+Added Component: Designator=R45(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R46(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R47(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R48(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R49(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R50(RES 0402)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=X5(NGFF_B3_30MM)
+Added Component: Designator=X6(NGFF_B3_30MM)
+Added Pin To Net: NetName=3V3_MAIN Pin=R45-2
+Added Pin To Net: NetName=CPU_RX3 Pin=R46-1
+Added Pin To Net: NetName=CPU_TX3 Pin=R47-1
+Added Pin To Net: NetName=3V3_MAIN Pin=R48-2
+Added Pin To Net: NetName=CPU_RX3 Pin=R49-1
+Added Pin To Net: NetName=CPU_TX3 Pin=R50-1
+Added Pin To Net: NetName=SPI1_MOSI Pin=X3-20
+Added Pin To Net: NetName=SPI1_SCK Pin=X3-22
+Added Pin To Net: NetName=SPI1_MISO Pin=X3-24
+Added Pin To Net: NetName=I2C2_SCL Pin=X3-40
+Added Pin To Net: NetName=I2C2_SDA Pin=X3-42
+Added Pin To Net: NetName=3V3_MAIN Pin=X4-2
+Added Pin To Net: NetName=GND Pin=X4-3
+Added Pin To Net: NetName=3V3_MAIN Pin=X4-4
+Added Pin To Net: NetName=GND Pin=X4-5
+Added Pin To Net: NetName=GND Pin=X4-11
+Added Pin To Net: NetName=GND Pin=X4-27
+Added Pin To Net: NetName=GND Pin=X4-33
+Added Pin To Net: NetName=GND Pin=X4-39
+Added Pin To Net: NetName=GND Pin=X4-45
+Added Pin To Net: NetName=GND Pin=X4-51
+Added Pin To Net: NetName=GND Pin=X4-57
+Added Pin To Net: NetName=3V3_MAIN Pin=X4-70
+Added Pin To Net: NetName=GND Pin=X4-71
+Added Pin To Net: NetName=3V3_MAIN Pin=X4-72
+Added Pin To Net: NetName=GND Pin=X4-73
+Added Pin To Net: NetName=3V3_MAIN Pin=X4-74
+Added Pin To Net: NetName=SPI1_MOSI Pin=X5-20
+Added Pin To Net: NetName=SPI1_SCK Pin=X5-22
+Added Pin To Net: NetName=SPI1_MISO Pin=X5-24
+Added Pin To Net: NetName=I2C2_SCL Pin=X5-40
+Added Pin To Net: NetName=I2C2_SDA Pin=X5-42
+Added Pin To Net: NetName=3V3_MAIN Pin=X6-2
+Added Pin To Net: NetName=GND Pin=X6-3
+Added Pin To Net: NetName=3V3_MAIN Pin=X6-4
+Added Pin To Net: NetName=GND Pin=X6-5
+Added Pin To Net: NetName=GND Pin=X6-11
+Added Pin To Net: NetName=GND Pin=X6-27
+Added Pin To Net: NetName=GND Pin=X6-33
+Added Pin To Net: NetName=GND Pin=X6-39
+Added Pin To Net: NetName=GND Pin=X6-45
+Added Pin To Net: NetName=GND Pin=X6-51
+Added Pin To Net: NetName=GND Pin=X6-57
+Added Pin To Net: NetName=3V3_MAIN Pin=X6-70
+Added Pin To Net: NetName=GND Pin=X6-71
+Added Pin To Net: NetName=3V3_MAIN Pin=X6-72
+Added Pin To Net: NetName=GND Pin=X6-73
+Added Pin To Net: NetName=3V3_MAIN Pin=X6-74
+Added Pin To Net: NetName=NetR45_1 Pin=R45-1
+Added Pin To Net: NetName=NetR45_1 Pin=X3-6
+Added Pin To Net: NetName=NetR45_1 Pin=X3-67
+Added Net: Name=NetR45_1
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=NetR46_2 Pin=X3-62
+Added Net: Name=NetR46_2
+Added Pin To Net: NetName=NetR47_2 Pin=R47-2
+Added Pin To Net: NetName=NetR47_2 Pin=X3-64
+Added Net: Name=NetR47_2
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_1 Pin=X5-6
+Added Pin To Net: NetName=NetR48_1 Pin=X5-67
+Added Net: Name=NetR48_1
+Added Pin To Net: NetName=NetR49_2 Pin=R49-2
+Added Pin To Net: NetName=NetR49_2 Pin=X5-62
+Added Net: Name=NetR49_2
+Added Pin To Net: NetName=NetR50_2 Pin=R50-2
+Added Pin To Net: NetName=NetR50_2 Pin=X5-64
+Added Net: Name=NetR50_2
+Added Pin To Net: NetName=NetX3_26 Pin=X3-26
+Added Pin To Net: NetName=NetX3_26 Pin=X5-26
+Added Net: Name=NetX3_26
+Added Pin To Net: NetName=NetX3_28 Pin=X3-28
+Added Pin To Net: NetName=NetX3_28 Pin=X5-28
+Added Net: Name=NetX3_28
+Added Class: Name=NGFF_B

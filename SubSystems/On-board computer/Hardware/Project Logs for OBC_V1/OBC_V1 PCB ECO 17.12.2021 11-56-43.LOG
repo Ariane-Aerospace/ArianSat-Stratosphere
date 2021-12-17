@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=SPI3_MISO Pin=X1-99
+Removed Pin From Net: NetName=SPI3_MOSI Pin=X1-100
+Removed Pin From Net: NetName=SPI3_SCK Pin=X1-101
+Change Component Designator: OldDesignator=R? NewDesignator=R40
+Change Component Designator: OldDesignator=R? NewDesignator=R41
+Change Component Designator: OldDesignator=R? NewDesignator=R42
+Change Component Designator: OldDesignator=R? NewDesignator=R43
+Change Component Designator: OldDesignator=R? NewDesignator=R44
+Change Component Designator: OldDesignator=VD? NewDesignator=VD1
+Change Component Designator: OldDesignator=VD? NewDesignator=VD2
+Added Component: Designator=R37(RES 0603)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R38(RES 0603)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Component: Designator=R39(RES 0603)
+Add component (AddParameter): Name = "IsSMT"; Value = "NoSMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SPI3_MISO Pin=R37-2
+Added Pin To Net: NetName=SPI3_MOSI Pin=R38-2
+Added Pin To Net: NetName=SPI3_SCK Pin=R39-2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR40_1
+Change Net Name : Old Net Name=NetVD?_A New Net Name=NetVD1_A
+Added Pin To Net: NetName=NetR37_1 Pin=R37-1
+Added Pin To Net: NetName=NetR37_1 Pin=X1-99
+Added Net: Name=NetR37_1
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=NetR38_1 Pin=X1-100
+Added Net: Name=NetR38_1
+Added Pin To Net: NetName=NetR39_1 Pin=R39-1
+Added Pin To Net: NetName=NetR39_1 Pin=X1-101
+Added Net: Name=NetR39_1

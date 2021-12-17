@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=SPI3_MISO Pin=X1-99
+Added Pin To Net: NetName=SPI3_MOSI Pin=X1-100
+Added Pin To Net: NetName=SPI3_SCK Pin=X1-101
+Added Pin To Net: NetName=NetCPU1_53 Pin=CPU1-53
+Added Net: Name=NetCPU1_53
+Added Pin To Net: NetName=NetCPU1_54 Pin=CPU1-54
+Added Net: Name=NetCPU1_54
